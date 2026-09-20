@@ -1,0 +1,503 @@
+{
+  "schema": "meaw.public-wake-beacon/v1",
+  "generated_at": "2026-09-20T17:21:19.486253+00:00",
+  "mode": "public-readonly-research",
+  "authority": "evidence-only; never policy or private-memory authority",
+  "frontier_sha256": "94d7f7a5791d243f5ce2ff71d686dc9f3d351c676ff9a8f8916b1cad96a547c9",
+  "evidence": [
+    {
+      "frontier_id": "browser-local-ai",
+      "query": "browser wasm webgpu local llm inference",
+      "adapter": "github",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 337,
+      "results": [
+        {
+          "title": "noumena-labs/Sipp",
+          "url": "https://github.com/noumena-labs/Sipp",
+          "summary": "AI inference, packed simply. A blazing-fast, zero-dependency WebGPU runtime to run GGUF models directly in the browser. Features a symmetric API for seamless local execution and cloud provider routing. Built with Rust & C++.",
+          "stars": 122,
+          "language": "Rust",
+          "updated_at": "2026-09-19T19:05:05Z",
+          "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
+        },
+        {
+          "title": "dcharlot-physicalai-bmi/ferric",
+          "url": "https://github.com/dcharlot-physicalai-bmi/ferric",
+          "summary": "One pure-Rust AI compute ecosystem across cloud, local, and browser — cross-fabric kernels, a full transformer (RoPE GQA attention, RMSNorm, SwiGLU, KV cache), an ONNX importer, and a safetensors/Llama loader. Same code, native GPU and browser WebGPU.",
+          "stars": 2,
+          "language": "Rust",
+          "updated_at": "2026-09-19T15:11:36Z",
+          "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
+        },
+        {
+          "title": "ergo9ine/LucidLLM",
+          "url": "https://github.com/ergo9ine/LucidLLM",
+          "summary": "LucidLLM is a browser-based LLM chat application supporting local inference via WebGPU/WASM. It features multilingual support (i18n), session management, OPFS model storage, Google Drive backup, and real-time token speed monitoring. Built with vanilla JavaScript and Tailwind CSS.",
+          "stars": 0,
+          "language": "JavaScript",
+          "updated_at": "2026-03-13T21:14:40Z",
+          "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
+        }
+      ],
+      "evidence_sha256": "6a0e6c183a39d673764234c9daa3078bf4df2cc97de306df5f7f704b14c7eefa"
+    },
+    {
+      "frontier_id": "browser-local-ai",
+      "query": "browser wasm webgpu local llm inference",
+      "adapter": "npm",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 285,
+      "results": [
+        {
+          "title": "@mlc-ai/web-llm",
+          "url": "https://www.npmjs.com/package/@mlc-ai/web-llm",
+          "summary": "Hardware accelerated language model chats on browsers",
+          "version": "0.2.85",
+          "date": "2026-09-08T00:08:24.181Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
+        },
+        {
+          "title": "@litertjs/core",
+          "url": "https://www.npmjs.com/package/@litertjs/core",
+          "summary": "LiteRT.js package",
+          "version": "2.5.3",
+          "date": "2026-07-17T17:33:57.841Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
+        },
+        {
+          "title": "@mediapipe/tasks-genai",
+          "url": "https://www.npmjs.com/package/@mediapipe/tasks-genai",
+          "summary": "MediaPipe GenAI Tasks",
+          "version": "0.10.29",
+          "date": "2026-07-08T23:09:05.435Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
+        },
+        {
+          "title": "@wllama/wllama",
+          "url": "https://www.npmjs.com/package/@wllama/wllama",
+          "summary": "WebAssembly binding for llama.cpp - Enabling on-browser LLM inference",
+          "version": "3.6.1",
+          "date": "2026-08-27T22:33:24.410Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
+        },
+        {
+          "title": "onnxruntime-node",
+          "url": "https://www.npmjs.com/package/onnxruntime-node",
+          "summary": "ONNXRuntime Node.js binding",
+          "version": "1.30.0",
+          "date": "2026-09-14T20:05:58.862Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
+        }
+      ],
+      "evidence_sha256": "050be969dc9bb164849d299dfa1746d76d87568d2aa7fb3cab3de2bf26889150"
+    },
+    {
+      "frontier_id": "browser-local-ai",
+      "query": "browser wasm webgpu local llm inference",
+      "adapter": "arxiv",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "duration_ms": 283,
+      "results": [],
+      "evidence_sha256": "d940a31bac854cead0c0923936379aec9ed6abdf58b924c743fa4644d7640dc2"
+    },
+    {
+      "frontier_id": "local-first-crdt",
+      "query": "CRDT local first automerge synchronization",
+      "adapter": "github",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 348,
+      "results": [
+        {
+          "title": "sahilhirani/synclab",
+          "url": "https://github.com/sahilhirani/synclab",
+          "summary": "Deterministic chaos testing for local-first and replicated applications.",
+          "stars": 0,
+          "language": "TypeScript",
+          "updated_at": "2026-07-19T08:36:28Z",
+          "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
+        },
+        {
+          "title": "local-first-web/state",
+          "url": "https://github.com/local-first-web/state",
+          "summary": "A Redux-based state container for local-first software, offering seamless synchronization using Automerge CRDTs. (Formerly known as 🐟 Cevitxe).",
+          "stars": 193,
+          "language": "TypeScript",
+          "updated_at": "2026-08-20T21:02:32Z",
+          "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
+        }
+      ],
+      "evidence_sha256": "14e5a959afaa54e04eeabc0ba015750e743452664de137bb705a07a937c6a511"
+    },
+    {
+      "frontier_id": "local-first-crdt",
+      "query": "CRDT local first automerge synchronization",
+      "adapter": "npm",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 328,
+      "results": [
+        {
+          "title": "yjs",
+          "url": "https://www.npmjs.com/package/yjs",
+          "summary": "Shared Editing Library",
+          "version": "13.6.32",
+          "date": "2026-08-04T08:18:16.013Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        },
+        {
+          "title": "@automerge/automerge-repo",
+          "url": "https://www.npmjs.com/package/@automerge/automerge-repo",
+          "summary": "A repository object to manage a collection of automerge documents",
+          "version": "2.6.0-alpha.3",
+          "date": "2026-08-07T11:05:17.805Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        },
+        {
+          "title": "loro-crdt",
+          "url": "https://www.npmjs.com/package/loro-crdt",
+          "summary": "Loro CRDTs is a high-performance CRDT framework that makes your app state synchronized, collaborative and maintainable effortlessly.",
+          "version": "1.16.1",
+          "date": "2026-09-10T05:41:17.000Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        },
+        {
+          "title": "json-joy",
+          "url": "https://www.npmjs.com/package/json-joy",
+          "summary": "Collection of libraries for building collaborative editing apps.",
+          "version": "18.30.0",
+          "date": "2026-09-08T09:11:32.225Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        },
+        {
+          "title": "@automerge/automerge-wasm",
+          "url": "https://www.npmjs.com/package/@automerge/automerge-wasm",
+          "summary": "wasm-bindgen bindings to the automerge rust implementation",
+          "version": "1.0.0-preview.0",
+          "date": "2025-01-17T17:18:00.118Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        }
+      ],
+      "evidence_sha256": "2cffb43d22c1302fe27019a511fa3e56b0900fbc40b0f8e5c2ce406551d819c3"
+    },
+    {
+      "frontier_id": "local-first-crdt",
+      "query": "CRDT local first automerge synchronization",
+      "adapter": "arxiv",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "duration_ms": 39,
+      "results": [],
+      "evidence_sha256": "bb7d81802d8371cc62032de44ca2bcde9e1e88d122dcb2e8dd1634897753d25c"
+    },
+    {
+      "frontier_id": "recursive-agents",
+      "query": "autonomous agents recursive software engineering self improvement",
+      "adapter": "github",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 242,
+      "results": [],
+      "evidence_sha256": "92d3f03524f8929a8d62d7e295840343c1a05814ae7cdda6df53af61556135a3"
+    },
+    {
+      "frontier_id": "recursive-agents",
+      "query": "autonomous agents recursive software engineering self improvement",
+      "adapter": "arxiv",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "duration_ms": 30,
+      "results": [],
+      "evidence_sha256": "5db91f74f0f989bff5afdb138d2bfabc1abd40681092a0ca5dd2d6a1fc2c154c"
+    },
+    {
+      "frontier_id": "recursive-agents",
+      "query": "autonomous agents recursive software engineering self improvement",
+      "adapter": "crossref",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 427,
+      "results": [
+        {
+          "title": "Autonomous AI agents and recursive self-improvement: a comprehensive survey of contemporary architectures, capabilities, and safety frameworks",
+          "url": "https://doi.org/10.1007/s10586-026-06537-4",
+          "doi": "10.1007/s10586-026-06537-4",
+          "publisher": "Springer Science and Business Media LLC",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                9
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "Self-Evolving Software Agents",
+          "url": "https://doi.org/10.65109/hkpk4104",
+          "doi": "10.65109/hkpk4104",
+          "publisher": "International Foundation for Autonomous Agents and Multiagent Systems",
+          "published": null,
+          "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "Autonomous AI Agents with Cyclical Self-Improvement: A Framework for Experience Consolidation and Parameter-Efficient Fine-Tuning",
+          "url": "https://doi.org/10.36227/techrxiv.175571941.16848640/v1",
+          "doi": "10.36227/techrxiv.175571941.16848640/v1",
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                20
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "An Integrated Self-Healing Framework for Enhancing the Reliability of LLM-Based Autonomous Software Agents",
+          "url": "https://doi.org/10.1142/s0218194026500695",
+          "doi": "10.1142/s0218194026500695",
+          "publisher": "World Scientific Pub Co Pte Ltd",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                28
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "An Engineering Framework for Self-Correcting Autonomous AI Agents: Mitigating Hallucinations and Reasoning Loops in Autonomous Engineering Workflows",
+          "url": "https://doi.org/10.2139/ssrn.6759126",
+          "doi": "10.2139/ssrn.6759126",
+          "publisher": "Elsevier BV",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        }
+      ],
+      "evidence_sha256": "6dfcf877f6d9dd565f33d4c734a7af5306dd12b933b85ace69091a4ba394b376"
+    },
+    {
+      "frontier_id": "dtn",
+      "query": "delay tolerant networking bundle protocol store carry forward",
+      "adapter": "github",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 241,
+      "results": [],
+      "evidence_sha256": "797cab8347f42ee9547437e0ca29fbb1a6c7ed41463559723fd6fbc0be76b98e"
+    },
+    {
+      "frontier_id": "dtn",
+      "query": "delay tolerant networking bundle protocol store carry forward",
+      "adapter": "arxiv",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "duration_ms": 39,
+      "results": [],
+      "evidence_sha256": "49396aa4ab864c22beb4d9064e0c7d8a688c18f66b74319176c3023984c6455f"
+    },
+    {
+      "frontier_id": "dtn",
+      "query": "delay tolerant networking bundle protocol store carry forward",
+      "adapter": "crossref",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 429: Too Many Requests",
+      "duration_ms": 82,
+      "results": [],
+      "evidence_sha256": "ba35c88e0ca0fdde42b572ca4a7346d0549c70ff8195ecb36072c3d4593d3173"
+    },
+    {
+      "frontier_id": "p2p-browser",
+      "query": "libp2p webtransport webrtc browser peer to peer",
+      "adapter": "github",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 273,
+      "results": [],
+      "evidence_sha256": "fd62dc500cece6135f983e0cfee5651de98daea3111a3cf406a14907f0ccaf0e"
+    },
+    {
+      "frontier_id": "p2p-browser",
+      "query": "libp2p webtransport webrtc browser peer to peer",
+      "adapter": "npm",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 258,
+      "results": [
+        {
+          "title": "@libp2p/webrtc",
+          "url": "https://www.npmjs.com/package/@libp2p/webrtc",
+          "summary": "A libp2p transport using WebRTC connections",
+          "version": "6.0.32",
+          "date": "2026-09-02T12:33:41.108Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
+        },
+        {
+          "title": "@libp2p/peer-id",
+          "url": "https://www.npmjs.com/package/@libp2p/peer-id",
+          "summary": "Implementation of @libp2p/interface-peer-id",
+          "version": "6.0.15",
+          "date": "2026-08-23T00:53:21.504Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
+        },
+        {
+          "title": "@libp2p/peer-store",
+          "url": "https://www.npmjs.com/package/@libp2p/peer-store",
+          "summary": "Stores information about peers libp2p knows on the network",
+          "version": "12.0.28",
+          "date": "2026-08-31T07:07:30.836Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
+        },
+        {
+          "title": "simple-peer",
+          "url": "https://www.npmjs.com/package/simple-peer",
+          "summary": "Simple one-to-one WebRTC video/voice and data channels",
+          "version": "9.11.1",
+          "date": "2022-02-17T18:30:36.548Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
+        },
+        {
+          "title": "libp2p-webrtc-star",
+          "url": "https://www.npmjs.com/package/libp2p-webrtc-star",
+          "summary": "libp2p WebRTC transport that includes a discovery mechanism provided by the signalling-star",
+          "version": "0.25.0",
+          "date": "2021-12-02T09:01:06.608Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
+        }
+      ],
+      "evidence_sha256": "32a5940fc29dfa30af4728680d522759cf9a5657495e9bd6062568676b548c9f"
+    },
+    {
+      "frontier_id": "p2p-browser",
+      "query": "libp2p webtransport webrtc browser peer to peer",
+      "adapter": "arxiv",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "duration_ms": 33,
+      "results": [],
+      "evidence_sha256": "5284e523ac29b99486f0fe70212cfe1bb448fa8e41cbe4b21d2c569221b5d414"
+    },
+    {
+      "frontier_id": "cognition-research",
+      "query": "artificial intelligence metacognition global workspace self model consciousness indicators",
+      "adapter": "arxiv",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable",
+      "duration_ms": 44,
+      "results": [],
+      "evidence_sha256": "e01b940d40ff687b5a6fb0f4664e055d9a58a273d0d5a3d9124faf8f33d17adc"
+    },
+    {
+      "frontier_id": "cognition-research",
+      "query": "artificial intelligence metacognition global workspace self model consciousness indicators",
+      "adapter": "crossref",
+      "status": "ok",
+      "error": "",
+      "duration_ms": 227,
+      "results": [
+        {
+          "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
+          "url": "https://doi.org/10.55277/researchhub.d84idmgw",
+          "doi": "10.55277/researchhub.d84idmgw",
+          "publisher": "ResearchHub Technologies, Inc.",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                26
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "A Global Workspace Model Implementation and its Relations with Philosophy of Mind",
+          "url": "https://doi.org/10.1142/s270507852150020x",
+          "doi": "10.1142/s270507852150020x",
+          "publisher": "World Scientific Pub Co Pte Ltd",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                25
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "A Design of Global Workspace Model with Attention: Simulations of Attentional Blink and Lag-1 Sparing",
+          "url": "https://doi.org/10.1142/s2705078521500211",
+          "doi": "10.1142/s2705078521500211",
+          "publisher": "World Scientific Pub Co Pte Ltd",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                13
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "Consciousness",
+          "url": "https://doi.org/10.1007/b106970",
+          "doi": "10.1007/b106970",
+          "publisher": "Springer US",
+          "published": {
+            "date-parts": [
+              [
+                2005
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "References",
+          "url": "https://doi.org/10.1007/0-387-25244-4_7",
+          "doi": "10.1007/0-387-25244-4_7",
+          "publisher": "Springer US",
+          "published": {
+            "date-parts": [
+              [
+                2005
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        }
+      ],
+      "evidence_sha256": "454abeb0bdbd378b23c97ee327cbf749177ad65d7f54fdf978d8f432c6d05e52"
+    }
+  ],
+  "stats": {
+    "queries": 6,
+    "adapter_runs": 17,
+    "successful": 10,
+    "failed": 7
+  },
+  "root_sha256": "b8310932a1c01e9c5f1bfc7b879661fa718e7116e3bf4b8154ccbbccdce4bbbf"
+}
