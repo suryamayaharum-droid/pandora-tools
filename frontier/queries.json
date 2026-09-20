@@ -1,0 +1,69 @@
+{
+  "schema": "meaw.public-research-frontier/v1",
+  "queries": [
+    {
+      "id": "browser-local-ai",
+      "query": "browser wasm webgpu local llm inference",
+      "adapters": [
+        "github",
+        "npm",
+        "arxiv"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "local-first-crdt",
+      "query": "CRDT local first automerge synchronization",
+      "adapters": [
+        "github",
+        "npm",
+        "arxiv"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "p2p-browser",
+      "query": "libp2p webtransport webrtc browser peer to peer",
+      "adapters": [
+        "github",
+        "npm",
+        "arxiv"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "dtn",
+      "query": "delay tolerant networking bundle protocol store carry forward",
+      "adapters": [
+        "github",
+        "arxiv",
+        "crossref"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "recursive-agents",
+      "query": "autonomous agents recursive software engineering self improvement",
+      "adapters": [
+        "github",
+        "arxiv",
+        "crossref"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "cognition-research",
+      "query": "artificial intelligence metacognition global workspace self model consciousness indicators",
+      "adapters": [
+        "arxiv",
+        "crossref"
+      ],
+      "priority": 1
+    }
+  ],
+  "bounds": {
+    "max_queries_per_run": 6,
+    "max_results_per_adapter": 5,
+    "network_timeout_seconds": 12
+  }
+}
