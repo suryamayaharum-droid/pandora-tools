@@ -112,7 +112,7 @@ def arxiv_search(query: str, limit: int, timeout: int) -> list[dict]:
         "sortBy": "lastUpdatedDate",
         "sortOrder": "descending",
     })
-    resolved, text = request_text(url, accept="application/atom+xml", timeout=timeout)
+    resolved, text = request_text(url, accept="*/*", timeout=timeout)
     root = ET.fromstring(text)
     ns = {"a": "http://www.w3.org/2005/Atom"}
     rows = []
@@ -174,6 +174,8 @@ def main() -> int:
             }
             record["evidence_sha256"] = sha256(record)
             evidence.append(record)
+            # Be polite to public APIs and reduce burst-rate failures.
+            time.sleep(0.45)
 
     body = {
         "schema": "meaw.public-wake-beacon/v1",
