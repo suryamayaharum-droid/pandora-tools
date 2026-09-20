@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-09-20T17:21:19.486253+00:00",
+  "generated_at": "2026-09-20T17:22:26.460630+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "94d7f7a5791d243f5ce2ff71d686dc9f3d351c676ff9a8f8916b1cad96a547c9",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 337,
+      "duration_ms": 569,
       "results": [
         {
           "title": "noumena-labs/Sipp",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "6a0e6c183a39d673764234c9daa3078bf4df2cc97de306df5f7f704b14c7eefa"
+      "evidence_sha256": "5f4f4613bd92d9ee5b85fafbabaaef12139c10e95dd93f68059c90be39032c23"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,7 +49,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 285,
+      "duration_ms": 187,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -92,7 +92,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "050be969dc9bb164849d299dfa1746d76d87568d2aa7fb3cab3de2bf26889150"
+      "evidence_sha256": "34c0c0a43f8c3d45864cc083f5930b49d8b411f4ee47c81f671e341e436745d9"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,9 +100,9 @@
       "adapter": "arxiv",
       "status": "error",
       "error": "HTTPError: HTTP Error 406: Not Acceptable",
-      "duration_ms": 283,
+      "duration_ms": 150,
       "results": [],
-      "evidence_sha256": "d940a31bac854cead0c0923936379aec9ed6abdf58b924c743fa4644d7640dc2"
+      "evidence_sha256": "195d1820d4529739ab75623e8e2e5f0fdc9579394df963018ec6a5fd418a3d64"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -110,7 +110,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 348,
+      "duration_ms": 408,
       "results": [
         {
           "title": "sahilhirani/synclab",
@@ -131,7 +131,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "14e5a959afaa54e04eeabc0ba015750e743452664de137bb705a07a937c6a511"
+      "evidence_sha256": "f875ff5e9b5c74defee0cc548ee1f26bbddb33184790187ef8c5fccb6be9cbef"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -139,7 +139,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 328,
+      "duration_ms": 193,
       "results": [
         {
           "title": "yjs",
@@ -182,7 +182,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "2cffb43d22c1302fe27019a511fa3e56b0900fbc40b0f8e5c2ce406551d819c3"
+      "evidence_sha256": "9267ca8463d59699c3dd4b50adaad1c261c1ca7b989fcee9c9c69e340bc53533"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -190,9 +190,9 @@
       "adapter": "arxiv",
       "status": "error",
       "error": "HTTPError: HTTP Error 406: Not Acceptable",
-      "duration_ms": 39,
+      "duration_ms": 124,
       "results": [],
-      "evidence_sha256": "bb7d81802d8371cc62032de44ca2bcde9e1e88d122dcb2e8dd1634897753d25c"
+      "evidence_sha256": "aa2e764c802740e6adae9a047c7724da43b899f2b4ff6f0e489aa78afb7ae74a"
     },
     {
       "frontier_id": "recursive-agents",
@@ -200,9 +200,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 242,
+      "duration_ms": 398,
       "results": [],
-      "evidence_sha256": "92d3f03524f8929a8d62d7e295840343c1a05814ae7cdda6df53af61556135a3"
+      "evidence_sha256": "08c777b994fe1a08526dda629a64f4ad8f41349e2917fbb61792dec6816040fd"
     },
     {
       "frontier_id": "recursive-agents",
@@ -210,9 +210,9 @@
       "adapter": "arxiv",
       "status": "error",
       "error": "HTTPError: HTTP Error 406: Not Acceptable",
-      "duration_ms": 30,
+      "duration_ms": 264,
       "results": [],
-      "evidence_sha256": "5db91f74f0f989bff5afdb138d2bfabc1abd40681092a0ca5dd2d6a1fc2c154c"
+      "evidence_sha256": "b89092561833476d92fc55eb1b8e56b2927386f58b68693053e759a9f7d4a7c6"
     },
     {
       "frontier_id": "recursive-agents",
@@ -220,7 +220,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 427,
+      "duration_ms": 913,
       "results": [
         {
           "title": "Autonomous AI agents and recursive self-improvement: a comprehensive survey of contemporary architectures, capabilities, and safety frameworks",
@@ -292,7 +292,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "6dfcf877f6d9dd565f33d4c734a7af5306dd12b933b85ace69091a4ba394b376"
+      "evidence_sha256": "ee94b241663506edf4732f6c36fe43d46bba512993b3b77b80af57a2c8f8a134"
     },
     {
       "frontier_id": "dtn",
@@ -300,9 +300,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 241,
+      "duration_ms": 349,
       "results": [],
-      "evidence_sha256": "797cab8347f42ee9547437e0ca29fbb1a6c7ed41463559723fd6fbc0be76b98e"
+      "evidence_sha256": "ff2422631ba7a1adf43de818517a3dd63fcb7ee90169a78c1a96fa2a457db592"
     },
     {
       "frontier_id": "dtn",
@@ -310,19 +310,95 @@
       "adapter": "arxiv",
       "status": "error",
       "error": "HTTPError: HTTP Error 406: Not Acceptable",
-      "duration_ms": 39,
+      "duration_ms": 119,
       "results": [],
-      "evidence_sha256": "49396aa4ab864c22beb4d9064e0c7d8a688c18f66b74319176c3023984c6455f"
+      "evidence_sha256": "4103465637c845ea4efb6f6a323076b97ce35ea430b8087dc52276a9345da314"
     },
     {
       "frontier_id": "dtn",
       "query": "delay tolerant networking bundle protocol store carry forward",
       "adapter": "crossref",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "duration_ms": 82,
-      "results": [],
-      "evidence_sha256": "ba35c88e0ca0fdde42b572ca4a7346d0549c70ff8195ecb36072c3d4593d3173"
+      "status": "ok",
+      "error": "",
+      "duration_ms": 333,
+      "results": [
+        {
+          "title": "Transparent and autonomous store-carry-forward communication in Delay Tolerant Networks (DTNs)",
+          "url": "https://doi.org/10.1109/iccnc.2012.6167525",
+          "doi": "10.1109/iccnc.2012.6167525",
+          "publisher": "IEEE",
+          "published": {
+            "date-parts": [
+              [
+                2012,
+                1
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "Delay-Tolerant Networking Bundle Protocol IANA Registries",
+          "url": "https://doi.org/10.17487/rfc6255",
+          "doi": "10.17487/rfc6255",
+          "publisher": "RFC Editor",
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                5
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "A general model for store-carry-forward routing schemes with multicast in delay tolerant networks",
+          "url": "https://doi.org/10.1109/chinacom.2011.6158204",
+          "doi": "10.1109/chinacom.2011.6158204",
+          "publisher": "IEEE",
+          "published": {
+            "date-parts": [
+              [
+                2011,
+                8
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "Datagram Convergence Layers for the Delay- and Disruption-Tolerant Networking (DTN) Bundle Protocol and Licklider Transmission Protocol (LTP)",
+          "url": "https://doi.org/10.17487/rfc7122",
+          "doi": "10.17487/rfc7122",
+          "publisher": "RFC Editor",
+          "published": {
+            "date-parts": [
+              [
+                2014,
+                3
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "Adaptive Carry-Store Forward Scheme in Two-Hop Vehicular Delay Tolerant Networks",
+          "url": "https://doi.org/10.1109/lcomm.2013.022713.130123",
+          "doi": "10.1109/lcomm.2013.022713.130123",
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "published": {
+            "date-parts": [
+              [
+                2013,
+                4
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        }
+      ],
+      "evidence_sha256": "f09c7e4e47a1608de3d5a9fa31a7c6e01e3c890228b02d3f54aff9522b156bef"
     },
     {
       "frontier_id": "p2p-browser",
@@ -330,9 +406,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 273,
+      "duration_ms": 333,
       "results": [],
-      "evidence_sha256": "fd62dc500cece6135f983e0cfee5651de98daea3111a3cf406a14907f0ccaf0e"
+      "evidence_sha256": "c54fb5f05f1173149f1fa8aa24834562d36b4ccbf3752cca74833c0e19ecdcdb"
     },
     {
       "frontier_id": "p2p-browser",
@@ -340,7 +416,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 258,
+      "duration_ms": 438,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -383,7 +459,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "32a5940fc29dfa30af4728680d522759cf9a5657495e9bd6062568676b548c9f"
+      "evidence_sha256": "09808a374e07bf0d3c2736da5c271fd81a529dbdfa3127528efd47db47bcae98"
     },
     {
       "frontier_id": "p2p-browser",
@@ -391,9 +467,9 @@
       "adapter": "arxiv",
       "status": "error",
       "error": "HTTPError: HTTP Error 406: Not Acceptable",
-      "duration_ms": 33,
+      "duration_ms": 123,
       "results": [],
-      "evidence_sha256": "5284e523ac29b99486f0fe70212cfe1bb448fa8e41cbe4b21d2c569221b5d414"
+      "evidence_sha256": "0c82f3ba279689d6f01123297e2c5fa92326ad40acf16624ba9382c86f7c5051"
     },
     {
       "frontier_id": "cognition-research",
@@ -401,9 +477,9 @@
       "adapter": "arxiv",
       "status": "error",
       "error": "HTTPError: HTTP Error 406: Not Acceptable",
-      "duration_ms": 44,
+      "duration_ms": 116,
       "results": [],
-      "evidence_sha256": "e01b940d40ff687b5a6fb0f4664e055d9a58a273d0d5a3d9124faf8f33d17adc"
+      "evidence_sha256": "77ad9782a6935fb4f997b1bb6bf83a2a4a2d3dfbf2e4692cdd311bfd1e82886b"
     },
     {
       "frontier_id": "cognition-research",
@@ -411,7 +487,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 227,
+      "duration_ms": 343,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -490,14 +566,14 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "454abeb0bdbd378b23c97ee327cbf749177ad65d7f54fdf978d8f432c6d05e52"
+      "evidence_sha256": "c63015a3427756be98564865661ad403459b48d77b91da05b09ca4fbbf6feac8"
     }
   ],
   "stats": {
     "queries": 6,
     "adapter_runs": 17,
-    "successful": 10,
-    "failed": 7
+    "successful": 11,
+    "failed": 6
   },
-  "root_sha256": "b8310932a1c01e9c5f1bfc7b879661fa718e7116e3bf4b8154ccbbccdce4bbbf"
+  "root_sha256": "5d621dff8eabe74e58ec9058064250961dda5b35c42f1f19d4d24a120879ba5d"
 }
