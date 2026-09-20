@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-09-20T17:29:33.603525+00:00",
+  "generated_at": "2026-09-20T20:50:02.499544+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 469,
+      "duration_ms": 658,
       "results": [
         {
           "title": "noumena-labs/Sipp",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "81272bb06ee745034316f81b6176cd32ba398eb8b942963b7840188fc3aa4d96"
+      "evidence_sha256": "00e5150e1982387d8102e61142b238db4a0b06c41ef5e124c01d2cc8358bcc8c"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,7 +49,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 459,
+      "duration_ms": 200,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -92,7 +92,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "06570726c14d08e132fa196fa6f591946a3b8d073a00724a686004de871f4950"
+      "evidence_sha256": "dd2de241bf8d5da1d0159b2c0a3d188e65ca7d21122b5b347ced7e3c5a71f12e"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,7 +100,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 710,
+      "duration_ms": 764,
       "results": [
         {
           "title": "HydroSuite-AI: a web-based LLM environment for hydrological code generation and execution for the hydrosuite open-source ecosystem",
@@ -153,7 +153,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "b139e078ed9445c9f6eaeafc9b18dde3f396a5b35150de417aad61e16b75e3f2"
+      "evidence_sha256": "688a867c3ba12ed298b6715699b235ee6789d34eb6917831cbca942b9f68652e"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -161,7 +161,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 329,
+      "duration_ms": 453,
       "results": [
         {
           "title": "sahilhirani/synclab",
@@ -182,7 +182,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "bd8c60df67de45dfdd7eae55bc315a014430e56ff2a827023562c8170175bb31"
+      "evidence_sha256": "88b2a04f872cedf7a16259fd47ffcdd081f16d8376e81aaaf55e7b6492fbbfc6"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -190,7 +190,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 422,
+      "duration_ms": 186,
       "results": [
         {
           "title": "yjs",
@@ -233,7 +233,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "9b5b1e5958c97d5a62e5d46d9f762a792508097284c963b347a7a235d6669b10"
+      "evidence_sha256": "ce0d3b107e459c1cff2a84d51280b7e1f28a0eeebcf472bef9cc46d639add31a"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -241,7 +241,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 268,
+      "duration_ms": 364,
       "results": [
         {
           "title": "LDOP-Edge Architecture for Distributed Data Processing and Sharing in E-Government",
@@ -294,7 +294,7 @@
           "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "00fb01744d1ec3a7d83d09bf76ece475a62c8a1ee736b355dc9cea6cd51315fd"
+      "evidence_sha256": "92b10961de639ca6db76d41aedfed2384f749d3bd300c58f3a2ddb803fe2f2ed"
     },
     {
       "frontier_id": "recursive-agents",
@@ -302,9 +302,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 279,
+      "duration_ms": 349,
       "results": [],
-      "evidence_sha256": "a097fe067a35a3b9062f7ae4001a500a8a197dd412579932c7777d2da43b5cce"
+      "evidence_sha256": "f05f2952da277e512620c9be391385915d0bc4fc6e1d094f6930eb95787186b8"
     },
     {
       "frontier_id": "recursive-agents",
@@ -312,7 +312,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 338,
+      "duration_ms": 508,
       "results": [
         {
           "title": "Luigi Usai Recursive Self Improvement Tool (RSI)",
@@ -365,7 +365,7 @@
           "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "5f29a87b65c385ec24b397f61309a9805f523192436811d30c3a5cbb062853ad"
+      "evidence_sha256": "6f23a9cb641069d6266fe1fd0aece0a3aded33b14411401b780335db4c92b866"
     },
     {
       "frontier_id": "recursive-agents",
@@ -373,7 +373,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 477,
+      "duration_ms": 1604,
       "results": [
         {
           "title": "Autonomous AI agents and recursive self-improvement: a comprehensive survey of contemporary architectures, capabilities, and safety frameworks",
@@ -445,7 +445,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "d3f8add41a18f9e039f009959af112fabd066f59c30d6f092b2a9b45b8f94e4e"
+      "evidence_sha256": "177ce117fcb642726c6cb98beb5c7993efc9a8f6df05fd2ac473db9f787a403e"
     },
     {
       "frontier_id": "dtn",
@@ -453,9 +453,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 301,
+      "duration_ms": 363,
       "results": [],
-      "evidence_sha256": "88184815e2b96c68021d0c418311f828ff295072475d3ae5d9c9425ac0e40611"
+      "evidence_sha256": "44840a318db10952f5e812424352dda289702ab3cdf76c28f853dd7dce6841c9"
     },
     {
       "frontier_id": "dtn",
@@ -463,7 +463,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 325,
+      "duration_ms": 537,
       "results": [
         {
           "title": "Python in the front, party in the Backline: compiling quantum workloads across CPUs, GPUs, and FPGAs",
@@ -516,7 +516,7 @@
           "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "0c04072520da002d5b475ab31aa08ff0768fba99e0f1c0967ffb9dba8058cec4"
+      "evidence_sha256": "bb7b984b1357164f0378e78d6ad6d7101a0ba5d5dee7cb53ee7cef73047662b5"
     },
     {
       "frontier_id": "dtn",
@@ -524,7 +524,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 416,
+      "duration_ms": 931,
       "results": [
         {
           "title": "Transparent and autonomous store-carry-forward communication in Delay Tolerant Networks (DTNs)",
@@ -602,7 +602,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "5c8cab78b61b0a868fc0e80cbb0560eb6c8c090ef7374000f8c71635a7db0f75"
+      "evidence_sha256": "6513770ccf44969c636dffecb256e4a8794598665aab3302c79405d771696c51"
     },
     {
       "frontier_id": "p2p-browser",
@@ -610,9 +610,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 298,
+      "duration_ms": 344,
       "results": [],
-      "evidence_sha256": "b99833dd6bef7ed11e14e22496ba89fa3efb3cde01dc681c281ac669744c1060"
+      "evidence_sha256": "2c91535845cd8fe20aaeac8cdf23eb24850aeed2fde3184bf92d6e113351cb0e"
     },
     {
       "frontier_id": "p2p-browser",
@@ -620,7 +620,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 482,
+      "duration_ms": 264,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -663,7 +663,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "9fe5e41a0fe3cb5aa927c3e88c282b305b8f0d83d851efc40f8e2a6dc93db5df"
+      "evidence_sha256": "38b17c5e153ee945d63a5f0c8e3f1303c37d88a95a6998c35b0a5d302c45e2bb"
     },
     {
       "frontier_id": "p2p-browser",
@@ -671,9 +671,9 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 161,
+      "duration_ms": 244,
       "results": [],
-      "evidence_sha256": "3fb0d50729c0a80df70bd931e727ff8366af9de9099324bfe612bd933007d15d"
+      "evidence_sha256": "2b85a8b1eec18b35471aa8358dcda559c91f3f28b81cc63d7ab7582b6ef89530"
     },
     {
       "frontier_id": "cognition-research",
@@ -681,7 +681,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 350,
+      "duration_ms": 566,
       "results": [
         {
           "title": "We Built a Mirror and Mistook It for a Mind: Causal Liability and the Fallacy of AI Consciousness",
@@ -734,7 +734,7 @@
           "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "9dc804733687fef39e87d689f448c044aadea35f71982fb72670f0dfb1d782a6"
+      "evidence_sha256": "75cb6982692c0410a8a82eac9fc2a62015933b2068335d0d7e754673fcad91de"
     },
     {
       "frontier_id": "cognition-research",
@@ -742,7 +742,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 341,
+      "duration_ms": 966,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -821,7 +821,7 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "ef2febad2f8f1c5407cf1fa8f1bb0169af2f5ea5089b6707c422741ac07cb823"
+      "evidence_sha256": "e96d9edc3ebff96a5a5c18a7fa692e7b8e3e6ed9b598725a71a686a8e14e8f2f"
     }
   ],
   "stats": {
@@ -830,5 +830,5 @@
     "successful": 17,
     "failed": 0
   },
-  "root_sha256": "2e3ac48e6daa98e9dfa3f06b144b4f7c14bd5c11b7eb543de6ae1ba10b0cce43"
+  "root_sha256": "85ddc5a73271c3d4a29229fd76f6356bb052f72fa71ec6dee57e8e85592bef74"
 }
