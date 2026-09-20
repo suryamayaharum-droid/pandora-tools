@@ -1,6 +1,12 @@
 name: MEAW Public Wake Beacon
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "wake.py"
+      - "frontier/**"
+      - ".github/workflows/meaw-public-wake.yml"
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
