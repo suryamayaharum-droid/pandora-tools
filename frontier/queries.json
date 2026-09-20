@@ -7,7 +7,7 @@
       "adapters": [
         "github",
         "npm",
-        "arxiv"
+        "openalex"
       ],
       "priority": 3
     },
@@ -17,7 +17,7 @@
       "adapters": [
         "github",
         "npm",
-        "arxiv"
+        "openalex"
       ],
       "priority": 3
     },
@@ -27,7 +27,7 @@
       "adapters": [
         "github",
         "npm",
-        "arxiv"
+        "openalex"
       ],
       "priority": 2
     },
@@ -36,7 +36,7 @@
       "query": "delay tolerant networking bundle protocol store carry forward",
       "adapters": [
         "github",
-        "arxiv",
+        "openalex",
         "crossref"
       ],
       "priority": 2
@@ -46,7 +46,7 @@
       "query": "autonomous agents recursive software engineering self improvement",
       "adapters": [
         "github",
-        "arxiv",
+        "openalex",
         "crossref"
       ],
       "priority": 3
@@ -55,7 +55,7 @@
       "id": "cognition-research",
       "query": "artificial intelligence metacognition global workspace self model consciousness indicators",
       "adapters": [
-        "arxiv",
+        "openalex",
         "crossref"
       ],
       "priority": 1
