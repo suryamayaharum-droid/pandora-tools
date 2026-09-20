@@ -104,6 +104,30 @@ def crossref_search(query: str, limit: int, timeout: int) -> list[dict]:
     return rows
 
 
+def openalex_search(query: str, limit: int, timeout: int) -> list[dict]:
+    url = "https://api.openalex.org/works?" + urllib.parse.urlencode({
+        "search": query,
+        "per-page": limit,
+        "sort": "publication_date:desc",
+    })
+    resolved, text = request_text(url, accept="application/json", timeout=timeout)
+    data = json.loads(text)
+    rows = []
+    for item in (data.get("results") or [])[:limit]:
+        source = ((item.get("primary_location") or {}).get("source") or {})
+        rows.append({
+            "title": item.get("title"),
+            "url": item.get("doi") or item.get("id"),
+            "doi": item.get("doi"),
+            "publication_date": item.get("publication_date"),
+            "type": item.get("type"),
+            "cited_by_count": item.get("cited_by_count"),
+            "source_name": source.get("display_name"),
+            "source": resolved,
+        })
+    return rows
+
+
 def arxiv_search(query: str, limit: int, timeout: int) -> list[dict]:
     url = "https://export.arxiv.org/api/query?" + urllib.parse.urlencode({
         "search_query": "all:" + query,
@@ -133,7 +157,7 @@ ADAPTERS = {
     "github": github_search,
     "npm": npm_search,
     "crossref": crossref_search,
-    "arxiv": arxiv_search,
+    "openalex": openalex_search,
 }
 
 
