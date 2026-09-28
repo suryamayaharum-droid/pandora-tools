@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-09-28T13:55:39.318195+00:00",
+  "generated_at": "2026-09-28T23:16:40.076827+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 396,
+      "duration_ms": 576,
       "results": [
         {
           "title": "dcharlot-physicalai-bmi/ferric",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "de7e6bdad0c4133d54cad0ce1577c28493ebf78714de772d95dac8089d306036"
+      "evidence_sha256": "3221e5333423ed4416a8908651d0978663ba4a48d3ef3c523e1c7df340820349"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,7 +49,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 719,
+      "duration_ms": 188,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -76,23 +76,23 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         },
         {
+          "title": "onnxruntime-node",
+          "url": "https://www.npmjs.com/package/onnxruntime-node",
+          "summary": "ONNXRuntime Node.js binding",
+          "version": "1.30.0",
+          "date": "2026-09-14T20:05:58.862Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
+        },
+        {
           "title": "@wllama/wllama",
           "url": "https://www.npmjs.com/package/@wllama/wllama",
           "summary": "WebAssembly binding for llama.cpp - Enabling on-browser LLM inference",
           "version": "3.6.1",
           "date": "2026-08-27T22:33:24.410Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
-        },
-        {
-          "title": "@electric-sql/pglite",
-          "url": "https://www.npmjs.com/package/@electric-sql/pglite",
-          "summary": "PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js and Bun, with no need to install any other dependencies. It is only 3.7mb gzipped.",
-          "version": "0.5.8",
-          "date": "2026-08-26T18:40:08.921Z",
-          "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "b761978e20532021b52729045ec40332f3482b4403ce63a27b6b10256f6ebfc2"
+      "evidence_sha256": "428ce0fcf59d4eb1b96ffa8203c67901022f5853f1a92b4c2a04306e00580225"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,7 +100,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 433,
+      "duration_ms": 410,
       "results": [
         {
           "title": "HydroSuite-AI: a web-based LLM environment for hydrological code generation and execution for the hydrosuite open-source ecosystem",
@@ -153,7 +153,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "51aba44c1d1a78485a408846b679db9e5bc359f2bc849f4183b9b4de7efd4dd4"
+      "evidence_sha256": "4dcceb2224bc9bbead463384a5281161b54917db749fbffaba9384e1768bc4ee"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -161,7 +161,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 325,
+      "duration_ms": 372,
       "results": [
         {
           "title": "sahilhirani/synclab",
@@ -182,7 +182,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "69f3f0769af114958f82c61846c7fa346582882aef34e0ff310c3951afd39356"
+      "evidence_sha256": "0c7fe99116fb3fb11a50fa747a5fe8a5cb0a2d9a6a9e28537c236a7fff5757d6"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -190,7 +190,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 242,
+      "duration_ms": 175,
       "results": [
         {
           "title": "yjs",
@@ -233,7 +233,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "3b313a720a161749e3f747c6e66cf737e2fe93ae2e705ce67b07f4f09eef6cf9"
+      "evidence_sha256": "171bd37030d9f073d263a7727095954921f231e7014953e120c6ed6173637a68"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -241,7 +241,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 366,
+      "duration_ms": 211,
       "results": [
         {
           "title": "Convergence Latency, State Explosion, and Memory Overhead in Real-Time Collaborative Web Systems: An Empirical Benchmark of CRDTs (Yjs, Automerge) versus Centralized Operational Transformation (OT)",
@@ -294,7 +294,7 @@
           "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "1b4015fb8b6a6544523d3dc38da693a808cf8dc5e2701a6e0dd410276c10efeb"
+      "evidence_sha256": "ff511b81252a50f487dbfc3258300da4dfda3b586a56414f1f8d45d393a3a293"
     },
     {
       "frontier_id": "recursive-agents",
@@ -302,9 +302,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 236,
+      "duration_ms": 257,
       "results": [],
-      "evidence_sha256": "2d4f5716e771b18abe7d85bfd318040b11f76a085463240eee19c5d90d0286e8"
+      "evidence_sha256": "e50cb873d65c9987b531871045ac2ab27242653ad4d1c1efca036c12591c71c1"
     },
     {
       "frontier_id": "recursive-agents",
@@ -312,7 +312,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 638,
+      "duration_ms": 327,
       "results": [
         {
           "title": "Self-reinforcing barriers to municipal digital government: A system dynamics perspective",
@@ -365,7 +365,7 @@
           "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "7189f979f92718f354a1dff57a3b9703e71f082b9992c8db067a8989b89d87dd"
+      "evidence_sha256": "dffb433f99b7b626a9ea59fa3b3bf5b26904e96bd126c15acda95d434242c86a"
     },
     {
       "frontier_id": "recursive-agents",
@@ -373,7 +373,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 758,
+      "duration_ms": 942,
       "results": [
         {
           "title": "Autonomous AI agents and recursive self-improvement: a comprehensive survey of contemporary architectures, capabilities, and safety frameworks",
@@ -445,7 +445,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "a7090f71a2c5c1c1bccdc4daa9d2d773cfdee47daaa08cd2c09ea5f9143538fd"
+      "evidence_sha256": "12d6e37a00b2e75c3a16215a379aec5e8b36530580605c1fd05af996be489101"
     },
     {
       "frontier_id": "dtn",
@@ -453,9 +453,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 240,
+      "duration_ms": 234,
       "results": [],
-      "evidence_sha256": "e5ad4a6b4af720259a744d47ec1a27fe32abd836592dd78e13b09ca2ce7ecc49"
+      "evidence_sha256": "949cd1e07396339126deac885597a3168ecfa4c9426f0bd98b59e2494d13c771"
     },
     {
       "frontier_id": "dtn",
@@ -463,7 +463,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 353,
+      "duration_ms": 448,
       "results": [
         {
           "title": "Interplanetary Time Attestation Under Light-Time Delay",
@@ -516,7 +516,7 @@
           "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "ef992f84bc9c38da1fe6a4326adab3cae1c9083323fc7de4dbee9c276c62dcff"
+      "evidence_sha256": "e269d51ef6c31aa501baf08713308cddda999ec1fc1a502bb8f6a72edb210f76"
     },
     {
       "frontier_id": "dtn",
@@ -524,7 +524,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 714,
+      "duration_ms": 638,
       "results": [
         {
           "title": "Transparent and autonomous store-carry-forward communication in Delay Tolerant Networks (DTNs)",
@@ -602,7 +602,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "4b451d2f8b00c5dedcc5a92dc265eb3d506bd45c4a17a1c51e6831dbcb1d46dd"
+      "evidence_sha256": "548e1f1f83ac1d4a23b63aec21525260232bbeddb977539ef64733dd5c54f018"
     },
     {
       "frontier_id": "p2p-browser",
@@ -610,9 +610,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 210,
+      "duration_ms": 240,
       "results": [],
-      "evidence_sha256": "72dbcb60739144b0a541e21d90f3b1003ab4a96da8a8ede238362c1201f789df"
+      "evidence_sha256": "2fe762eb73722c39cd9eb7207f4eecd8cc7f65b396c74b1aa92e0a5434c21dd1"
     },
     {
       "frontier_id": "p2p-browser",
@@ -620,7 +620,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 458,
+      "duration_ms": 510,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -663,7 +663,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "d3d3e285e5cc54ff56f0f4fbc5e341d5c1883ff2fec23b9aa5455afc3a0b1bba"
+      "evidence_sha256": "d533458251c80e119515d2b5889a18d03c987a7f24ed63e38642d7ca3a2bd5ad"
     },
     {
       "frontier_id": "p2p-browser",
@@ -671,9 +671,9 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 212,
+      "duration_ms": 198,
       "results": [],
-      "evidence_sha256": "7f2d29557a3f4665ab433f8432fd07a37235cd7cdf18944f2654804774db494d"
+      "evidence_sha256": "13c8d0802ad1b89f1260c2050163c56f71ddd2c2f73bac2d8a9c641f64e2caf7"
     },
     {
       "frontier_id": "cognition-research",
@@ -681,7 +681,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 488,
+      "duration_ms": 401,
       "results": [
         {
           "title": "AI Consciousness and Existential Risk",
@@ -734,7 +734,7 @@
           "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "cf4475c5bfdbc775858f623e58e8cb1f6df376312bfa4b9c28a4b85f0308e198"
+      "evidence_sha256": "be472a483909a28b0aa804e4ba1a5e5a9d52e23449837f11730a7e4665b32952"
     },
     {
       "frontier_id": "cognition-research",
@@ -742,7 +742,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 611,
+      "duration_ms": 571,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -821,7 +821,7 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "ba3fddc362a3a0074be2cbbdc84996dcd121ddb9854c671e93eba8b1b55249c8"
+      "evidence_sha256": "4cb88ac8e30e4434b1bc2ebfd419d79fc934de7c808d8046d1273928c7896536"
     }
   ],
   "stats": {
@@ -830,5 +830,5 @@
     "successful": 17,
     "failed": 0
   },
-  "root_sha256": "4db133320f2b5836925a4c68c0b40389a0098f679b099b635e010798ad93b845"
+  "root_sha256": "78e024abe5099212d2b46e6c045e33ee924621c3ebceeb72f825de8880f570c4"
 }
