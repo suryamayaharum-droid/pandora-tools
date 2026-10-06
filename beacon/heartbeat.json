@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-heartbeat/v1",
-  "generated_at": "2026-10-06T06:21:11.051823+00:00",
-  "beacon_sha256": "5a85eca018ae89431599ba9067cbc5be85ea3c011d4b6eeec043b523b7e25771",
+  "generated_at": "2026-10-06T18:22:11.763092+00:00",
+  "beacon_sha256": "d90d6787a0ea98c9f50c3931e226cec17f8594cc5a790460519b1d82aca84b17",
   "status": "ok"
 }
