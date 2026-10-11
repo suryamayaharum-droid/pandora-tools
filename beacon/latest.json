@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-10-11T12:50:33.008180+00:00",
+  "generated_at": "2026-10-11T21:58:28.461928+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 461,
+      "duration_ms": 539,
       "results": [
         {
           "title": "dcharlot-physicalai-bmi/ferric",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "68236f72099020993df0583c9ff34619381ce62a946dc109a75de579ccb9dbca"
+      "evidence_sha256": "ff8a731c9488083d37134cd266bf02ff51848ec948a494bce63e1c515796dea2"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,14 +49,14 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 573,
+      "duration_ms": 491,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
           "url": "https://www.npmjs.com/package/@mlc-ai/web-llm",
           "summary": "Hardware accelerated language model chats on browsers",
-          "version": "0.2.85",
-          "date": "2026-09-08T00:08:24.181Z",
+          "version": "0.2.86",
+          "date": "2026-10-11T13:30:26.361Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         },
         {
@@ -92,7 +92,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "e199af1a273681a17c7a4ddd91770e3883eda70544bdf24b400295a9c873a56b"
+      "evidence_sha256": "8705ea15ccb2f55cb25ad063007882b3a804268f2a3f899fd073cf50aca0590a"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,7 +100,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 376,
+      "duration_ms": 651,
       "results": [
         {
           "title": "HydroSuite-AI: a web-based LLM environment for hydrological code generation and execution for the hydrosuite open-source ecosystem",
@@ -153,7 +153,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "fc5a484afd38110aee8e008db6d02f3be5c9fe258c85f3c3d81e5bf344fce514"
+      "evidence_sha256": "d71ed6a1483bee6a55d266da8813222bf2ea9a042c8d94f22205258597be90e5"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -161,7 +161,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 343,
+      "duration_ms": 423,
       "results": [
         {
           "title": "local-first-web/state",
@@ -182,7 +182,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "5bac59dd5c74783806e30323b59e170e68f5c1c6ab3bf6a0257a0fd6d2a1c8de"
+      "evidence_sha256": "2fc8059de4234c16739672e052df2549058e147f06439441a7974a9dc51b75be"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -190,22 +190,22 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 199,
+      "duration_ms": 393,
       "results": [
-        {
-          "title": "@automerge/automerge-repo",
-          "url": "https://www.npmjs.com/package/@automerge/automerge-repo",
-          "summary": "A repository object to manage a collection of automerge documents",
-          "version": "2.6.0-alpha.3",
-          "date": "2026-08-07T11:05:17.805Z",
-          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
-        },
         {
           "title": "yjs",
           "url": "https://www.npmjs.com/package/yjs",
           "summary": "Shared Editing Library",
           "version": "13.6.33",
           "date": "2026-09-23T16:37:57.032Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        },
+        {
+          "title": "@automerge/automerge-repo",
+          "url": "https://www.npmjs.com/package/@automerge/automerge-repo",
+          "summary": "A repository object to manage a collection of automerge documents",
+          "version": "2.6.0-alpha.3",
+          "date": "2026-08-07T11:05:17.805Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         },
         {
@@ -233,17 +233,68 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "11c3dbbac62821a0c3536d93ee2328c084fdce7c37bd52be8039822fd3625e5c"
+      "evidence_sha256": "28a2c16651a226179f0f49877a1f988bcc61ae8dd7c3a9628e8ed1700a1f1a0d"
     },
     {
       "frontier_id": "local-first-crdt",
       "query": "CRDT local first automerge synchronization",
       "adapter": "openalex",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "duration_ms": 52,
-      "results": [],
-      "evidence_sha256": "226f72a2d37bd273b6ba55b9a92daf4a193d6d0e428539499e211d39ec4a084a"
+      "status": "ok",
+      "error": "",
+      "duration_ms": 377,
+      "results": [
+        {
+          "title": "Convergence Latency, State Explosion, and Memory Overhead in Real-Time Collaborative Web Systems: An Empirical Benchmark of CRDTs (Yjs, Automerge) versus Centralized Operational Transformation (OT)",
+          "url": "https://doi.org/10.5281/zenodo.22897435",
+          "doi": "https://doi.org/10.5281/zenodo.22897435",
+          "publication_date": "2026-09-22",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Fluid Notarization: Verifiable Evolution of Concurrently Edited Structured Documents",
+          "url": "https://doi.org/10.48550/arxiv.2609.18886",
+          "doi": "https://doi.org/10.48550/arxiv.2609.18886",
+          "publication_date": "2026-09-16",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "LDOP-Edge Architecture for Distributed Data Processing and Sharing in E-Government",
+          "url": "https://doi.org/10.54654/isj.v2i28.6418",
+          "doi": "https://doi.org/10.54654/isj.v2i28.6418",
+          "publication_date": "2026-08-22",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Journal of Science and Technology on Information security",
+          "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "ESBT: A Scalable and Deterministic Sequence CRDT for Distributed Collaborative Editing",
+          "url": "https://doi.org/10.48550/arxiv.2607.28101",
+          "doi": "https://doi.org/10.48550/arxiv.2607.28101",
+          "publication_date": "2026-07-30",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "IEC 61499 Compliant Remote Web-Based IDE for Function Block Design",
+          "url": "https://openalex.org/W7172239005",
+          "doi": null,
+          "publication_date": "2026-07-15",
+          "type": "dissertation",
+          "cited_by_count": 0,
+          "source_name": "Open Repository of the University of Porto (University of Porto)",
+          "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
+        }
+      ],
+      "evidence_sha256": "75be596beec949de92823baacbc654bf51f440db09469dabca1d3bf0426d4075"
     },
     {
       "frontier_id": "recursive-agents",
@@ -251,19 +302,70 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 227,
+      "duration_ms": 336,
       "results": [],
-      "evidence_sha256": "abbfc801376a7507864c3272e0dd8445cdeff63cfde631f6840e7868f6bcd865"
+      "evidence_sha256": "303b107a048cc780dee7835129dcf20667165d04a941b8a0633d85be7a39820b"
     },
     {
       "frontier_id": "recursive-agents",
       "query": "autonomous agents recursive software engineering self improvement",
       "adapter": "openalex",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "duration_ms": 58,
-      "results": [],
-      "evidence_sha256": "28474e58cf471746e9b996e6af68ac375f98ef06d349c09b70703aaea0c5b67b"
+      "status": "ok",
+      "error": "",
+      "duration_ms": 427,
+      "results": [
+        {
+          "title": "Reframing Authorship and Ethics in AI-driven and Immersive Architectural Environments: A Transdisciplinary Review",
+          "url": "https://doi.org/10.56261/jars.v23.279132",
+          "doi": "https://doi.org/10.56261/jars.v23.279132",
+          "publication_date": "2026-10-09",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Journal of Architectural/Planning Research and Studies (JARS)",
+          "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "SHAP driven explainable machine learning for malware classification: From detection to explanation",
+          "url": "https://doi.org/10.30534/ijatcse/2026/011552026",
+          "doi": "https://doi.org/10.30534/ijatcse/2026/011552026",
+          "publication_date": "2026-10-09",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "International Journal of Advanced Trends in Computer Science and Engineering",
+          "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Adaptive neuro-fuzzy risk index for safe and interpretable lane-change decisions in Level-3 autonomous driving",
+          "url": "https://doi.org/10.3389/fnbot.2026.1918469",
+          "doi": "https://doi.org/10.3389/fnbot.2026.1918469",
+          "publication_date": "2026-10-09",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Frontiers in Neurorobotics",
+          "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Execution-First Synthetic Tool-Use Trace Generation for LLM Agents",
+          "url": "https://doi.org/10.1145/3843282.3844446",
+          "doi": "https://doi.org/10.1145/3843282.3844446",
+          "publication_date": "2026-10-08",
+          "type": "conference-paper",
+          "cited_by_count": 0,
+          "source_name": null,
+          "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "A deep generative adversarial framework with rat-optimized feature selection for efficient intrusion detection in large-scale cloud network traffic environments",
+          "url": "https://doi.org/10.1007/s10791-026-10557-4",
+          "doi": "https://doi.org/10.1007/s10791-026-10557-4",
+          "publication_date": "2026-10-08",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Discover Computing",
+          "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
+        }
+      ],
+      "evidence_sha256": "1f5bac7e902de417fdea621e3c3ed95935482d156916293fa32fce6ada9ef37e"
     },
     {
       "frontier_id": "recursive-agents",
@@ -271,7 +373,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 267,
+      "duration_ms": 511,
       "results": [
         {
           "title": "Autonomous AI agents and recursive self-improvement: a comprehensive survey of contemporary architectures, capabilities, and safety frameworks",
@@ -343,7 +445,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "cf6aa47734b1f30f0c717b5fbdefe6aa1b5075efdaa58b983a1d2dee5b688eb7"
+      "evidence_sha256": "5d5f051e1cc2feaa247ac3d28cc4185b2b225417b4e8a8c4e75f60899750df4b"
     },
     {
       "frontier_id": "dtn",
@@ -351,19 +453,70 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 224,
+      "duration_ms": 325,
       "results": [],
-      "evidence_sha256": "5575feaa29149c7c40455747f978a4b0508cb67049386b9c6f6d95f7caced6fb"
+      "evidence_sha256": "87b343302c8db5c63775288cf21ecafb9c3589790f598c78894d57761775327d"
     },
     {
       "frontier_id": "dtn",
       "query": "delay tolerant networking bundle protocol store carry forward",
       "adapter": "openalex",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "duration_ms": 52,
-      "results": [],
-      "evidence_sha256": "2a1d630dda425bc6d34ee165910916bcf1b1d7fefaafda41468ce837a2cefb98"
+      "status": "ok",
+      "error": "",
+      "duration_ms": 518,
+      "results": [
+        {
+          "title": "Resilient quorum consensus over disruption-tolerant multi-transport networks for distributed acoustic sensing",
+          "url": "https://openalex.org/W7221424071",
+          "doi": null,
+          "publication_date": "2026-10-07",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)",
+          "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Can LLMs help find Ambiguities in Protocol Specifications?",
+          "url": "https://doi.org/10.48550/arxiv.2609.38752",
+          "doi": "https://doi.org/10.48550/arxiv.2609.38752",
+          "publication_date": "2026-09-30",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Cascadia: A Control-Plane-Free Alternative to Hyperconverged AI Infrastructure",
+          "url": "https://doi.org/10.48550/arxiv.2609.38697",
+          "doi": "https://doi.org/10.48550/arxiv.2609.38697",
+          "publication_date": "2026-09-30",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Pricing IoT Data Delivered via LEO Satellites",
+          "url": "https://doi.org/10.48550/arxiv.2609.37995",
+          "doi": "https://doi.org/10.48550/arxiv.2609.37995",
+          "publication_date": "2026-09-29",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Traffic Congestion Awareness and On-Demand Distribution in Vehicular Delay-Tolerant Networks in California I-210 Freeway",
+          "url": "https://doi.org/10.48550/arxiv.2609.36156",
+          "doi": "https://doi.org/10.48550/arxiv.2609.36156",
+          "publication_date": "2026-09-28",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
+        }
+      ],
+      "evidence_sha256": "8fce0f96cafa2ec3e6f34db763cfdb581b1ad8696c84f4178ef1aa1c82ca1655"
     },
     {
       "frontier_id": "dtn",
@@ -371,7 +524,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 579,
+      "duration_ms": 399,
       "results": [
         {
           "title": "Transparent and autonomous store-carry-forward communication in Delay Tolerant Networks (DTNs)",
@@ -449,7 +602,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "7c0b0ee493826207c28d3d0064599c6ebb75d379a946c4a456764970d5a2b69a"
+      "evidence_sha256": "1e2c0e318ab5d88dac503819a3752ed045f6a34482135fbb157934004906e652"
     },
     {
       "frontier_id": "p2p-browser",
@@ -457,9 +610,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 246,
+      "duration_ms": 395,
       "results": [],
-      "evidence_sha256": "d638957d46569581d6a979ed9a72e4b8148c41443bed537746381b3649727298"
+      "evidence_sha256": "6144c2a2c0fa1981cdb785f141fb518ec902ad5ae310852a209423ae0910db18"
     },
     {
       "frontier_id": "p2p-browser",
@@ -467,7 +620,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 517,
+      "duration_ms": 555,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -510,27 +663,78 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "c498f348ff2ec3ed77809f41e8a01f24e8dda75715222528ab04bcf749f07460"
+      "evidence_sha256": "67d3bbae411b0c80cce319f44e08594be46139fb84f8538bd44778b1a8b892bc"
     },
     {
       "frontier_id": "p2p-browser",
       "query": "libp2p webtransport webrtc browser peer to peer",
       "adapter": "openalex",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "duration_ms": 52,
+      "status": "ok",
+      "error": "",
+      "duration_ms": 384,
       "results": [],
-      "evidence_sha256": "cf80b9e21444ce427a6d6dfad41425c9d4067a2814c61741f30b17918b0001a5"
+      "evidence_sha256": "5d010938affec1617bb9d08ca84c54ff004ace9887132b5b30d81a9bb785f252"
     },
     {
       "frontier_id": "cognition-research",
       "query": "artificial intelligence metacognition global workspace self model consciousness indicators",
       "adapter": "openalex",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 429: Too Many Requests",
-      "duration_ms": 53,
-      "results": [],
-      "evidence_sha256": "4291880d070c7f307740036c12577c50e31c8f6f687743ea10c8327e67fc5e88"
+      "status": "ok",
+      "error": "",
+      "duration_ms": 459,
+      "results": [
+        {
+          "title": "Reconceptualizing Learner Roles: Student Co-Creation and Participatory Dynamics in AI-Driven Business Education Ecosystems",
+          "url": "https://doi.org/10.56201/wjimt.v9.no10.2025.pg206.217",
+          "doi": "https://doi.org/10.56201/wjimt.v9.no10.2025.pg206.217",
+          "publication_date": "2026-10-01",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "WORLD JOURNAL OF INNOVATION AND MODERN TECHNOLOGY",
+          "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling",
+          "url": "https://doi.org/10.48550/arxiv.2609.17331",
+          "doi": "https://doi.org/10.48550/arxiv.2609.17331",
+          "publication_date": "2026-09-15",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "We Built a Mirror and Mistook It for a Mind: Causal Liability and the Fallacy of AI Consciousness",
+          "url": "https://doi.org/10.48550/arxiv.2609.06715",
+          "doi": "https://doi.org/10.48550/arxiv.2609.06715",
+          "publication_date": "2026-09-06",
+          "type": "preprint",
+          "cited_by_count": 0,
+          "source_name": "arXiv (Cornell University)",
+          "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "AI Consciousness and Existential Risk",
+          "url": "https://doi.org/10.1142/s2705078526500049",
+          "doi": "https://doi.org/10.1142/s2705078526500049",
+          "publication_date": "2026-09-01",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Journal of Artificial Intelligence and Consciousness",
+          "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
+        },
+        {
+          "title": "From chemistry to cognition: the adaptive origins of consciousness under constraint",
+          "url": "https://doi.org/10.3389/fnins.2026.1907922",
+          "doi": "https://doi.org/10.3389/fnins.2026.1907922",
+          "publication_date": "2026-09-01",
+          "type": "article",
+          "cited_by_count": 0,
+          "source_name": "Frontiers in Neuroscience",
+          "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
+        }
+      ],
+      "evidence_sha256": "7c5d218b7ea8a5e00397461043b327c4331e0dbb31e0dac6458b50c172c9ac8a"
     },
     {
       "frontier_id": "cognition-research",
@@ -538,7 +742,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 420,
+      "duration_ms": 286,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -617,14 +821,14 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "60cc815017f4a9f28472ae34f4b3d4ef4fd920f2e6590d4182f05a3a0f9fa425"
+      "evidence_sha256": "44332428144a5005bcd2904971b42cb12aa88e6b715875cc610ad522577d718f"
     }
   ],
   "stats": {
     "queries": 6,
     "adapter_runs": 17,
-    "successful": 12,
-    "failed": 5
+    "successful": 17,
+    "failed": 0
   },
-  "root_sha256": "59db3b00392e129cee186d8b7d5723ac497db2ff184b2f13c0ac67a84492edca"
+  "root_sha256": "0fc973d6cf0b5671d4d6a614ddaaa1b3c071a8b8893ea6945219631388439cee"
 }
