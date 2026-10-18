@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-10-17T20:36:51.604652+00:00",
+  "generated_at": "2026-10-18T04:34:21.792913+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 522,
+      "duration_ms": 422,
       "results": [
         {
           "title": "noumena-labs/Sipp",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "82b729c13e4f2861867097ae2acc485bb7014c2791c4c7f9e23299b572f92fcc"
+      "evidence_sha256": "b661da7c7a3f6d894ee8f60ac88d7e642cfd3599d93ba40cc6e2f4b6e292b979"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,7 +49,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 336,
+      "duration_ms": 275,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -92,7 +92,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "ef1f041098901606e2065768d79dc151ab8ac5bf4f7a0a52e2ba5aa6bf6b0b11"
+      "evidence_sha256": "f0377577ed15a348704afc42f126415c5aef7c2ed89e088e674e064351b37ba3"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,7 +100,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 609,
+      "duration_ms": 457,
       "results": [
         {
           "title": "HydroSuite-AI: a web-based LLM environment for hydrological code generation and execution for the hydrosuite open-source ecosystem",
@@ -153,7 +153,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "74e7649297574edaeeac2a34966f4496a0e4237622e40e65d2a53e2dc2740354"
+      "evidence_sha256": "2f1696531ef1372a3dda2a6d9871922b8341ee404b0347fc49182c9f1467be45"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -161,7 +161,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 344,
+      "duration_ms": 342,
       "results": [
         {
           "title": "local-first-web/state",
@@ -182,7 +182,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "a58eb9022cac69d13af271ececb569265a192c88a782d66f4865fe1c4de0ac32"
+      "evidence_sha256": "a3477b270d3b2fabf288063eff9174f36a65294f5772117b9739abacb36b5c73"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -190,7 +190,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 196,
+      "duration_ms": 238,
       "results": [
         {
           "title": "@automerge/automerge-repo",
@@ -233,7 +233,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "c82aeb410e27e4e6fa3fd81eb7a8dc5936b64202b29931a0e397ccef9a4ded1e"
+      "evidence_sha256": "8ed142a9751beb848ce80699cf0970d8c4947004c99519486b813e538134bca8"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -241,7 +241,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 205,
+      "duration_ms": 403,
       "results": [
         {
           "title": "Convergence Latency, State Explosion, and Memory Overhead in Real-Time Collaborative Web Systems: An Empirical Benchmark of CRDTs (Yjs, Automerge) versus Centralized Operational Transformation (OT)",
@@ -294,7 +294,7 @@
           "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "c3d68091341b9b4d67353408e8768db9e09599cce6b5673ba9d3803862d8a0dc"
+      "evidence_sha256": "a9e101d719473190668389fa9ca1f72edbc8c269c60e54d0db3e4f35f8f439d0"
     },
     {
       "frontier_id": "recursive-agents",
@@ -302,9 +302,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 263,
+      "duration_ms": 268,
       "results": [],
-      "evidence_sha256": "52bb61d5a1de46f2bb585ace776a8782f36e38028d6d8e46ea7ca29058d81398"
+      "evidence_sha256": "210866139f6f5df5dfad614f29c6af234f81a071a28f4998ea87d310b033e4da"
     },
     {
       "frontier_id": "recursive-agents",
@@ -312,7 +312,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 205,
+      "duration_ms": 472,
       "results": [
         {
           "title": "Data Optimization for LLMs: A Survey",
@@ -365,7 +365,7 @@
           "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "36f1d7075cd9957f8ab2218d11d09d5c193d81664595a0069ab951137836d9a8"
+      "evidence_sha256": "5a65dece8d07224c10e8cc1921493dbf19eb9cce23ce0336e08bc0ddf83b97e8"
     },
     {
       "frontier_id": "recursive-agents",
@@ -373,7 +373,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 169,
+      "duration_ms": 325,
       "results": [
         {
           "title": "Autonomous AI agents and recursive self-improvement: a comprehensive survey of contemporary architectures, capabilities, and safety frameworks",
@@ -445,7 +445,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "5240eb76985df3d873284cecd85c374ec61af1c7e97cf0ea3cce8f449a84b90e"
+      "evidence_sha256": "0c366bb0c6c38773dd399f7882910fbc59961b10d8698d767b7c8f78bcb27cf4"
     },
     {
       "frontier_id": "dtn",
@@ -453,9 +453,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 278,
+      "duration_ms": 276,
       "results": [],
-      "evidence_sha256": "025091c346e9de0d5c84aa0b51eaef7c95f287102091d133b4b60ec3424442e8"
+      "evidence_sha256": "8e1642a0848604dad010ef55358bb3e818d1ef2424e4a93a6b2f078a667d822f"
     },
     {
       "frontier_id": "dtn",
@@ -463,7 +463,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 320,
+      "duration_ms": 446,
       "results": [
         {
           "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
@@ -516,7 +516,7 @@
           "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "a66951db4baf22c6f3fc51fcfe05467db5076e9ef5c844b0bc79bbc154ab67f7"
+      "evidence_sha256": "b6fac0eb7f72002a8560e9bb1aca8898d0884880a71dff1ef2441c95886b6a06"
     },
     {
       "frontier_id": "dtn",
@@ -524,7 +524,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 112,
+      "duration_ms": 277,
       "results": [
         {
           "title": "Transparent and autonomous store-carry-forward communication in Delay Tolerant Networks (DTNs)",
@@ -602,7 +602,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "1985493e5226c12382230fd3fbbbf124ae34bbf7e88df77a2e8957aa908dec66"
+      "evidence_sha256": "2916af907523c9e22c42cc85cc8720a6811746600970ff4e7435bca34ce9b7f5"
     },
     {
       "frontier_id": "p2p-browser",
@@ -610,9 +610,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 297,
+      "duration_ms": 282,
       "results": [],
-      "evidence_sha256": "fbdbbf82e5d1d162623058b21cb43b9bbc309df32e24912743d7a2d0b4245a3f"
+      "evidence_sha256": "5838174d27d32c5403edc1ac1d014a268ff0aa9b47716c4ffdfc61cd249cb7ee"
     },
     {
       "frontier_id": "p2p-browser",
@@ -620,7 +620,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 403,
+      "duration_ms": 244,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -663,7 +663,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "209d81d017fc826ccf1c65caf089e04c6b217927d244a40ea65b2c66be93b0b3"
+      "evidence_sha256": "204f11048ac911c5a90c324f7f6ccea2b6de59794a05568cb14cbb21450250bf"
     },
     {
       "frontier_id": "p2p-browser",
@@ -671,7 +671,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 143,
+      "duration_ms": 165,
       "results": [
         {
           "title": "Analisis Pemanfaatan Teknologi Blockchain dan Interplanetary File System (IPFS) untuk Mengatasi Single Point of Failure pada Hadoop = Analysis of Blockchain and Interplanetary File System (IPFS) Utilization for Overcome Single Point of Failure in Hadoop",
@@ -684,7 +684,7 @@
           "source": "https://api.openalex.org/works?search=libp2p+webtransport+webrtc+browser+peer+to+peer&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "315b5d3d73b82595601bef098f3bfda8e95fb669ee2444e2668610ade7036735"
+      "evidence_sha256": "944108daca215b54fc833f359cf31efaf055ece920f544f92f2196eeed15ea9f"
     },
     {
       "frontier_id": "cognition-research",
@@ -692,7 +692,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 275,
+      "duration_ms": 354,
       "results": [
         {
           "title": "Reconceptualizing Learner Roles: Student Co-Creation and Participatory Dynamics in AI-Driven Business Education Ecosystems",
@@ -745,7 +745,7 @@
           "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "c76e3833ae71414492096d477a12a88ae4846a4f79e6642613dc42f800782172"
+      "evidence_sha256": "17cbd68a06ab706f3f1ed5f71a1cc0fe018ad0410d5eb8450bd52869d2faaff2"
     },
     {
       "frontier_id": "cognition-research",
@@ -753,7 +753,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 159,
+      "duration_ms": 325,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -832,7 +832,7 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "df6efb6a57c775e3ea219d938e682581735413c30c053fe9619c33da57eeba9f"
+      "evidence_sha256": "3975c0c84c0bd637399048879947c989bd80d4643743462c3d137e1b5ec72a41"
     }
   ],
   "stats": {
@@ -841,5 +841,5 @@
     "successful": 17,
     "failed": 0
   },
-  "root_sha256": "b0fc40f17aa1b4d3cbc72bf931b62f708a51d3ca625bf4d0c2a2524a5c271c18"
+  "root_sha256": "c62f670bfa70411129f6043a01d596d5d646a1a8f82d7890fb2c01273e0e47e6"
 }
