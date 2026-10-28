@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-10-27T22:14:00.712622+00:00",
+  "generated_at": "2026-10-28T05:42:43.653843+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 961,
+      "duration_ms": 592,
       "results": [
         {
           "title": "noumena-labs/Sipp",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "4578a8f61e5a0c87107c5100df0db22ff55a7ff3cef9120f32c039431e315202"
+      "evidence_sha256": "c6a5115ed3b539f647c020bc92a9d6df82e7b412a33127358e60ae640bc54121"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,7 +49,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 617,
+      "duration_ms": 292,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -84,15 +84,15 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         },
         {
-          "title": "gliner",
-          "url": "https://www.npmjs.com/package/gliner",
-          "summary": "This is a GLiNER inference engine",
-          "version": "0.0.19",
-          "date": "2025-03-02T16:56:17.138Z",
+          "title": "@electric-sql/pglite",
+          "url": "https://www.npmjs.com/package/@electric-sql/pglite",
+          "summary": "PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js and Bun, with no need to install any other dependencies. It is only 3.7mb gzipped.",
+          "version": "0.5.12",
+          "date": "2026-10-26T13:57:30.916Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "61a0d1123c24cae8cdf8c09cc3073fa9ab5327f909181089e820f133e8f65049"
+      "evidence_sha256": "cc5f669b7b87afcf7617570a7a8193ae04928f460bebf0cfe54842a767a64d91"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,7 +100,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 602,
+      "duration_ms": 910,
       "results": [
         {
           "title": "HydroSuite-AI: a web-based LLM environment for hydrological code generation and execution for the hydrosuite open-source ecosystem",
@@ -153,7 +153,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "fc9350bcef98e30dd31989aa7c776d0cc559170625f1e2bffdd9077300378b7d"
+      "evidence_sha256": "16a68492a1a076758987b9a8020f7b6f62330b6fc32651efcc0361948ac659b3"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -161,7 +161,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 488,
+      "duration_ms": 457,
       "results": [
         {
           "title": "local-first-web/state",
@@ -182,7 +182,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "ad896ee516f1ff598cb0ee17fe5cb2ea9dc64a62c457ce5766af462a63b4da0c"
+      "evidence_sha256": "5ce182e0d257324e91ef89d9473ee41a802e08651b54e58ff80cedba3aea25c4"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -241,7 +241,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 383,
+      "duration_ms": 284,
       "results": [
         {
           "title": "Convergence Latency, State Explosion, and Memory Overhead in Real-Time Collaborative Web Systems: An Empirical Benchmark of CRDTs (Yjs, Automerge) versus Centralized Operational Transformation (OT)",
@@ -294,7 +294,7 @@
           "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "2cc21a3276c4ed7cbff3c3cbe79f1f67b7e45ddb98e851ab8883710b289ffb31"
+      "evidence_sha256": "fba760b7c4ad76a52b5fdd0a5a5c18940aef64e570b6acb89b0d1a4bc3f8ebb4"
     },
     {
       "frontier_id": "recursive-agents",
@@ -302,9 +302,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 383,
+      "duration_ms": 386,
       "results": [],
-      "evidence_sha256": "c8d27475ee12cb8b41477d6c974088e291ddb9a251ed0eddba60f843c23d6b83"
+      "evidence_sha256": "2725b690037a9753a40c253e2aa44bb3b6d6cf92ef0db022af012cdcf48b32f6"
     },
     {
       "frontier_id": "recursive-agents",
@@ -373,7 +373,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 378,
+      "duration_ms": 637,
       "results": [
         {
           "title": "Recursive Self Improvement for Embodied Agents—A Survey of Mechanisms Evaluation and Open Challenges",
@@ -447,7 +447,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "3141ab3662267718bacdb0dca3df6b019fdd2c5497767532897e1c9da1807b48"
+      "evidence_sha256": "a6923bc9d070cc95e42211610793a79c3f5938685bfa03060c15ce52dc4f40ae"
     },
     {
       "frontier_id": "dtn",
@@ -455,9 +455,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 436,
+      "duration_ms": 428,
       "results": [],
-      "evidence_sha256": "9fc82c0bffdfb3f3801d01f75fcd41fa5add86ce58ed0c3cd8758899a1715ef7"
+      "evidence_sha256": "fb242f4bfc6dbbfbe4d7cebb72a2f4e027a340048bbc92ab1a4a977f482676f4"
     },
     {
       "frontier_id": "dtn",
@@ -465,7 +465,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 505,
+      "duration_ms": 452,
       "results": [
         {
           "title": "FTWeave: Composing Logical Execution, Real-Time Decoding, and Magic-State Supply in Tightly Integrated Quantum-Classical Systems",
@@ -518,7 +518,7 @@
           "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "baed7c6031a619658ff0df9c663175d1e46b94b88a0e0c3d0e662081ab0f596f"
+      "evidence_sha256": "3b93290a27e12fcd372d4f346546d24d3fa6abd9cd34388c57d874293369a955"
     },
     {
       "frontier_id": "dtn",
@@ -526,7 +526,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 452,
+      "duration_ms": 351,
       "results": [
         {
           "title": "Transparent and autonomous store-carry-forward communication in Delay Tolerant Networks (DTNs)",
@@ -604,7 +604,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "f71bb57f21ba7d597b562b140dab011fd238ef974e660c1bf7fafb410df77a4e"
+      "evidence_sha256": "6f674d253c3ae73682fba559164c585b20d8a8ed06620d354bd2c9d6464667ad"
     },
     {
       "frontier_id": "p2p-browser",
@@ -612,9 +612,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 365,
+      "duration_ms": 380,
       "results": [],
-      "evidence_sha256": "b5c37608ac7bc4d5eb5861e1d4115ec538bce78065d7cef2c774fcd3da82044d"
+      "evidence_sha256": "1602236b6c92e28672393e27dc40e3047a9fba12a9931cfa3f6b1bf7a401c931"
     },
     {
       "frontier_id": "p2p-browser",
@@ -622,7 +622,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 274,
+      "duration_ms": 243,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -641,14 +641,6 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         },
         {
-          "title": "simple-peer",
-          "url": "https://www.npmjs.com/package/simple-peer",
-          "summary": "Simple one-to-one WebRTC video/voice and data channels",
-          "version": "9.11.1",
-          "date": "2022-02-17T18:30:36.548Z",
-          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
-        },
-        {
           "title": "@libp2p/peer-store",
           "url": "https://www.npmjs.com/package/@libp2p/peer-store",
           "summary": "Stores information about peers libp2p knows on the network",
@@ -663,9 +655,17 @@
           "version": "0.25.0",
           "date": "2021-12-02T09:01:06.608Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
+        },
+        {
+          "title": "simple-peer",
+          "url": "https://www.npmjs.com/package/simple-peer",
+          "summary": "Simple one-to-one WebRTC video/voice and data channels",
+          "version": "9.11.1",
+          "date": "2022-02-17T18:30:36.548Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "c8127e42b9c68d96ade4807e3a4ae772ab97632371c8dc58a74e10935722e734"
+      "evidence_sha256": "fb64b35945b8ccea3e9aca39b3e9d55f68248d1963cd8ea25a31a9eaab8faa15"
     },
     {
       "frontier_id": "p2p-browser",
@@ -673,7 +673,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 346,
+      "duration_ms": 312,
       "results": [
         {
           "title": "Analisis Pemanfaatan Teknologi Blockchain dan Interplanetary File System (IPFS) untuk Mengatasi Single Point of Failure pada Hadoop = Analysis of Blockchain and Interplanetary File System (IPFS) Utilization for Overcome Single Point of Failure in Hadoop",
@@ -686,7 +686,7 @@
           "source": "https://api.openalex.org/works?search=libp2p+webtransport+webrtc+browser+peer+to+peer&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "3e75947e9cc4177812ea4c11b19f2866a1ebfe506cae06c8dfaa2b57e0076a36"
+      "evidence_sha256": "a658a42c7c1d0fcf9d544ebdbaa5eaf870d7be25643a2fc90a52b61dc571f933"
     },
     {
       "frontier_id": "cognition-research",
@@ -694,7 +694,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 657,
+      "duration_ms": 282,
       "results": [
         {
           "title": "The Third Case: Prompt-Governed Agency under a Consciousness Hypothesis",
@@ -747,7 +747,7 @@
           "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "b7b0660c988c1ed596d1eb4057ab99098a6d0b9bc27b2a7d674f0e53139d2e44"
+      "evidence_sha256": "8ea7c51c704ffa1e9773c7db7605f78c67883c547ba9c3280ad6cf0180729154"
     },
     {
       "frontier_id": "cognition-research",
@@ -755,7 +755,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 737,
+      "duration_ms": 536,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -774,22 +774,6 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         },
         {
-          "title": "A Global Workspace Model Implementation and its Relations with Philosophy of Mind",
-          "url": "https://doi.org/10.1142/s270507852150020x",
-          "doi": "10.1142/s270507852150020x",
-          "publisher": "World Scientific Pub Co Pte Ltd",
-          "published": {
-            "date-parts": [
-              [
-                2021,
-                10,
-                25
-              ]
-            ]
-          },
-          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
-        },
-        {
           "title": "A Design of Global Workspace Model with Attention: Simulations of Attentional Blink and Lag-1 Sparing",
           "url": "https://doi.org/10.1142/s2705078521500211",
           "doi": "10.1142/s2705078521500211",
@@ -800,6 +784,22 @@
                 2021,
                 10,
                 13
+              ]
+            ]
+          },
+          "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
+        },
+        {
+          "title": "A Global Workspace Model Implementation and its Relations with Philosophy of Mind",
+          "url": "https://doi.org/10.1142/s270507852150020x",
+          "doi": "10.1142/s270507852150020x",
+          "publisher": "World Scientific Pub Co Pte Ltd",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                25
               ]
             ]
           },
@@ -834,7 +834,7 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "b1cbea2a6e2f428eb9d8213a97cd1a237d52c508c99d371ddefc8d1d29609265"
+      "evidence_sha256": "8025a89891da573905bd38382833129426e1876c5c993319e190104a19f8bca1"
     }
   ],
   "stats": {
@@ -843,5 +843,5 @@
     "successful": 17,
     "failed": 0
   },
-  "root_sha256": "2f0b7cacbae4d1ed8593d16c3e3deadd7c9fb7adbd72fc65f11a8b4d33f08299"
+  "root_sha256": "6145a2554e56cbfe713f4b32340ccf37ba35025301e6dc782f5b88e5a91f9d05"
 }
