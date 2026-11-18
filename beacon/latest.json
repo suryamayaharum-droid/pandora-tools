@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-11-17T20:55:06.715452+00:00",
+  "generated_at": "2026-11-18T07:28:40.460884+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,7 +11,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 489,
+      "duration_ms": 598,
       "results": [
         {
           "title": "noumena-labs/Sipp",
@@ -41,7 +41,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "61bac0604170be7143cf268a690e708a048b6c8a1c12ebba02b66b5f4900fb0c"
+      "evidence_sha256": "2d2716581b673885c283b64db0b76950d417d51350d8b05719d735b23b73368f"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -49,7 +49,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 667,
+      "duration_ms": 602,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -84,15 +84,15 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         },
         {
-          "title": "@mediapipe/tasks-genai",
-          "url": "https://www.npmjs.com/package/@mediapipe/tasks-genai",
-          "summary": "MediaPipe GenAI Tasks",
-          "version": "0.10.30",
-          "date": "2026-10-25T07:00:36.680Z",
+          "title": "@electric-sql/pglite",
+          "url": "https://www.npmjs.com/package/@electric-sql/pglite",
+          "summary": "PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js and Bun, with no need to install any other dependencies. It is only 3.7mb gzipped.",
+          "version": "0.5.16",
+          "date": "2026-11-09T16:30:42.576Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "3d0a22f084378a208819ba6f8c4e69fd721041ee945b59fa2afba25807d1813c"
+      "evidence_sha256": "4e1c6cdc237d35f6f3593f5608259cb98330dd7f8b2d56ae064fbc5a8b9e7bf8"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -100,7 +100,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 833,
+      "duration_ms": 839,
       "results": [
         {
           "title": "Browser Immune System (BIS): Innate and Adaptive Threat Detection in the Browser with a Cybersecurity Transformer",
@@ -153,7 +153,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "8d428e9b7e79645d7efba9058bb06416cde47199272bde6dcc99e454ca790038"
+      "evidence_sha256": "50386ef25cfb6fb3b7df5ab3fec64bb220cc1e93519002a2b5f8178df4469ccc"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -161,7 +161,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 571,
+      "duration_ms": 525,
       "results": [
         {
           "title": "yvvsatyanarayana-dev/Stoa",
@@ -191,7 +191,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "f78d0f1e9a8d03ad892a8fd91fabb5f5f6098f1164417c30fde2cf7e79e3da84"
+      "evidence_sha256": "8ec27920419cca620a3e23b04616f59db8e701754c7b9ceae8e3840cfcc6fcb6"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -199,7 +199,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 392,
+      "duration_ms": 706,
       "results": [
         {
           "title": "@automerge/automerge-repo",
@@ -218,19 +218,19 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         },
         {
-          "title": "loro-crdt",
-          "url": "https://www.npmjs.com/package/loro-crdt",
-          "summary": "Loro CRDTs is a high-performance CRDT framework that makes your app state synchronized, collaborative and maintainable effortlessly.",
-          "version": "1.18.0",
-          "date": "2026-11-16T07:07:32.926Z",
-          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
-        },
-        {
           "title": "json-joy",
           "url": "https://www.npmjs.com/package/json-joy",
           "summary": "Collection of libraries for building collaborative editing apps.",
           "version": "18.30.0",
           "date": "2026-09-08T09:11:32.225Z",
+          "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
+        },
+        {
+          "title": "loro-crdt",
+          "url": "https://www.npmjs.com/package/loro-crdt",
+          "summary": "Loro CRDTs is a high-performance CRDT framework that makes your app state synchronized, collaborative and maintainable effortlessly.",
+          "version": "1.18.0",
+          "date": "2026-11-16T07:07:32.926Z",
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         },
         {
@@ -242,7 +242,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "dcbf7194722c7efecc296853a739d07d07f1e359cadb0e8c664c07e04f14aa82"
+      "evidence_sha256": "298982c64dde159fb422fed53227dc2076efc0df61f62d7b328cc50c3d086cbe"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -250,7 +250,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 160,
+      "duration_ms": 1017,
       "results": [
         {
           "title": "GUARDTs: Decentralized Access Control for Replicated Data Types",
@@ -303,7 +303,7 @@
           "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "7e8349838cad271bc1e9f621a7c583667611d8f5dae000fb4c19df2df1c38778"
+      "evidence_sha256": "23fb81ca2bc3bb79340f8ad773400009fce0e3bee4bdc41a28ce0b2a44453e0a"
     },
     {
       "frontier_id": "recursive-agents",
@@ -311,9 +311,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 249,
+      "duration_ms": 340,
       "results": [],
-      "evidence_sha256": "99bede3cd1017b80d17a2637c4a0a7ce7aedbeb7a2af77a1ac655685889c7edd"
+      "evidence_sha256": "9133e4cbab344a336f0af27dcaecde1556bdae1cceb7c17d67fffb926959da7a"
     },
     {
       "frontier_id": "recursive-agents",
@@ -321,7 +321,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 294,
+      "duration_ms": 1484,
       "results": [
         {
           "title": "Simple is better? HPC-enabled neural architecture search for energy demand forecasting",
@@ -374,7 +374,7 @@
           "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "81069c0d7310041a9d44d217a7bba7de2b7bb010b26264f228fbef0f1418d696"
+      "evidence_sha256": "0251cacb63b3230d23a7087574b729a2af99505b3348cd958572163d7da71923"
     },
     {
       "frontier_id": "recursive-agents",
@@ -382,7 +382,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 331,
+      "duration_ms": 767,
       "results": [
         {
           "title": "Recursive Self Improvement for Embodied Agents—A Survey of Mechanisms Evaluation and Open Challenges",
@@ -456,7 +456,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "7cba2421550aad9c129b1cf68d43133997fff12d2ee236fb7a32a6473662605c"
+      "evidence_sha256": "3bd698ab6903b1274c3c2f5bf6ed019b1fe93a94d6c2183897b9cb516951c985"
     },
     {
       "frontier_id": "dtn",
@@ -464,9 +464,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 296,
+      "duration_ms": 340,
       "results": [],
-      "evidence_sha256": "fd17d728728639c50714c468a9a684a8f6103178984c1885242b0a143e8feec9"
+      "evidence_sha256": "c6058b608164929324cc027c1a0a486d5c498a0af3d12e6380d6329d15dd5108"
     },
     {
       "frontier_id": "dtn",
@@ -474,7 +474,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 615,
+      "duration_ms": 804,
       "results": [
         {
           "title": "Performance Evaluation of QUICCL Transfer Services for Vehicular Delay-Tolerant Networks",
@@ -527,7 +527,7 @@
           "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "7a61a02ffb96669b4686134f80513aa7b46a03407ef36586eba4687fdaa9866a"
+      "evidence_sha256": "132a4c44585e03d9073e567ec4ec5ce0c8c2699dcd11d8efcc4f4fd30bdbbcf6"
     },
     {
       "frontier_id": "dtn",
@@ -535,7 +535,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 113,
+      "duration_ms": 308,
       "results": [
         {
           "title": "Delay-Tolerant Networking Bundle Protocol IANA Registries",
@@ -613,7 +613,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "12f8f4a09e09eac90301766634a6c03e7f6043fb3117e0000618ba45fd1756c5"
+      "evidence_sha256": "0ff4a06c724ee8dc57b9136fcbfd4fd3708ac2ffee62750eb35517ec822fe514"
     },
     {
       "frontier_id": "p2p-browser",
@@ -621,9 +621,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 240,
+      "duration_ms": 347,
       "results": [],
-      "evidence_sha256": "2fe762eb73722c39cd9eb7207f4eecd8cc7f65b396c74b1aa92e0a5434c21dd1"
+      "evidence_sha256": "00515966e8a450b2575e4c237a517e14525b5beba4cee4ce418a8a8058345fea"
     },
     {
       "frontier_id": "p2p-browser",
@@ -631,7 +631,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 578,
+      "duration_ms": 583,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -674,7 +674,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "97f19fcfd2d13ce0d9b9e4655a31449f2ce4f1d585d85cbb8f3055c373c860cf"
+      "evidence_sha256": "67f9321526ac79faebc2ab2fccf58c87e5db7eeb92ce562704bf4aaefed1049f"
     },
     {
       "frontier_id": "p2p-browser",
@@ -682,7 +682,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 328,
+      "duration_ms": 496,
       "results": [
         {
           "title": "Analisis Pemanfaatan Teknologi Blockchain dan Interplanetary File System (IPFS) untuk Mengatasi Single Point of Failure pada Hadoop = Analysis of Blockchain and Interplanetary File System (IPFS) Utilization for Overcome Single Point of Failure in Hadoop",
@@ -695,7 +695,7 @@
           "source": "https://api.openalex.org/works?search=libp2p+webtransport+webrtc+browser+peer+to+peer&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "2625f5d0c43d7c1c66f2f50d9d37b7e0be3e534959c7a02c5443f5a9aabe84fd"
+      "evidence_sha256": "6efdcc9cf51972415092c8f3dc08751907e6645ddf7331bfb85a66d7de52b2cb"
     },
     {
       "frontier_id": "cognition-research",
@@ -703,7 +703,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 614,
+      "duration_ms": 1376,
       "results": [
         {
           "title": "The Third Case: Prompt-Governed Agency under a Consciousness Hypothesis",
@@ -756,7 +756,7 @@
           "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "b0a4b086f2012c6a256aa89b0a6597519c6320588d5eb67473293f7b285385a5"
+      "evidence_sha256": "a72ff32057af9d7e95c609c3d7d589919d157f90891e24183adb317650d3a42c"
     },
     {
       "frontier_id": "cognition-research",
@@ -764,7 +764,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 350,
+      "duration_ms": 671,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -843,7 +843,7 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "b24d31b853cfb4e1cf91515669cf5f435340a9134912cb7ef414b89fbfd51d0b"
+      "evidence_sha256": "1974c6307a2221cfa858af0fd6d29a3374f140083b73249a346882de42a87eb8"
     }
   ],
   "stats": {
@@ -852,5 +852,5 @@
     "successful": 17,
     "failed": 0
   },
-  "root_sha256": "3b99f8da47bc62eed9f8ce0c23897373e0f83b89c703e4f2299eee8068ae21b5"
+  "root_sha256": "78b448152210b530442ab3cbf735300fd1e6687da37da13d916cdc82d56378ec"
 }
