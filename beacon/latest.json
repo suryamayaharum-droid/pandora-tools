@@ -1,6 +1,6 @@
 {
   "schema": "meaw.public-wake-beacon/v1",
-  "generated_at": "2026-11-26T21:31:34.299456+00:00",
+  "generated_at": "2026-11-27T08:33:24.179926+00:00",
   "mode": "public-readonly-research",
   "authority": "evidence-only; never policy or private-memory authority",
   "frontier_sha256": "07138c43d59ca272403cd83d12594dc40ce7d068eced3b1a2612f8c4da0ca896",
@@ -11,15 +11,15 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 425,
+      "duration_ms": 762,
       "results": [
         {
           "title": "KarpelesLab/oxinfer",
           "url": "https://github.com/KarpelesLab/oxinfer",
           "summary": "Pure-Rust local inference for language, vision, image, speech and embedding models from Hugging Face (safetensors, GGUF, MLX). SIMD CPU kernels everywhere, Metal, CUDA and Vulkan GPUs, a WebAssembly + WebGPU browser build, and an OpenAI-compatible server.",
-          "stars": 4,
+          "stars": 5,
           "language": "Rust",
-          "updated_at": "2026-11-26T03:35:19Z",
+          "updated_at": "2026-11-27T03:12:59Z",
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         },
         {
@@ -59,7 +59,7 @@
           "source": "https://api.github.com/search/repositories?q=browser+wasm+webgpu+local+llm+inference&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "639cc1fee6748ead1cc18552f47b009b8cfe4b46a3d25d96f386080c14f00f6a"
+      "evidence_sha256": "c1d736450a876584e3dd350eb15a8481ea34d1dd85cdacebb4a7322f816b54e0"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -67,7 +67,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 241,
+      "duration_ms": 504,
       "results": [
         {
           "title": "@mlc-ai/web-llm",
@@ -110,7 +110,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=browser+wasm+webgpu+local+llm+inference&size=5"
         }
       ],
-      "evidence_sha256": "738ec95bb6bc27f11af0a6438511b8dc35946366add4ea58125dd2e50680328e"
+      "evidence_sha256": "8017dcd0f264f2f5351dfde299997661f4951a08a22db7fca6332f95a6e45d27"
     },
     {
       "frontier_id": "browser-local-ai",
@@ -118,7 +118,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 414,
+      "duration_ms": 649,
       "results": [
         {
           "title": "Sparrowhawk: harnessing WebAssembly for private microbial genomics, and beyond",
@@ -171,7 +171,7 @@
           "source": "https://api.openalex.org/works?search=browser+wasm+webgpu+local+llm+inference&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "35b92b69dc0a15fb3044d1c037c34b61eabda816531e5ff6a99330ce14c904b0"
+      "evidence_sha256": "330880f863ccf4bc86a3659b91c437a30eeae632c224015a9a580b0d9564bb33"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -179,7 +179,7 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 422,
+      "duration_ms": 673,
       "results": [
         {
           "title": "yvvsatyanarayana-dev/Stoa",
@@ -209,7 +209,7 @@
           "source": "https://api.github.com/search/repositories?q=CRDT+local+first+automerge+synchronization&sort=updated&order=desc&per_page=5"
         }
       ],
-      "evidence_sha256": "5643db7773fcf5d3ec40e05aa70b9e2abba32ce6149945f569967ed9574d3e7c"
+      "evidence_sha256": "8441878f8f1686df2af475395b2ecafde6e0fee30aeda6f67c65e88e689f52ee"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -217,7 +217,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 191,
+      "duration_ms": 266,
       "results": [
         {
           "title": "@automerge/automerge-repo",
@@ -260,7 +260,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=CRDT+local+first+automerge+synchronization&size=5"
         }
       ],
-      "evidence_sha256": "5e7fdfb383b00d7f882f3cd0c7e8ad108b5b4b61d1b6048155761b4373704dcb"
+      "evidence_sha256": "3b188c1c7198c28595b91b65f26974cae873299217a990328a78788c88084890"
     },
     {
       "frontier_id": "local-first-crdt",
@@ -268,7 +268,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 450,
+      "duration_ms": 494,
       "results": [
         {
           "title": "GUARDTs: Decentralized Access Control for Replicated Data Types",
@@ -321,7 +321,7 @@
           "source": "https://api.openalex.org/works?search=CRDT+local+first+automerge+synchronization&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "0ae5fcfc3ddfee29fadf28b4197b4ad3062af14cac0a4ac02b2b590f8e7d0b9a"
+      "evidence_sha256": "6649280c86ffb150f021f050f36c4764b889033bb94aa36e48d5cde56394ac66"
     },
     {
       "frontier_id": "recursive-agents",
@@ -329,9 +329,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 209,
+      "duration_ms": 401,
       "results": [],
-      "evidence_sha256": "4d078bbbefcc6d6b4905f5130f188b73f3d669277260ef30c9dbcd8401615061"
+      "evidence_sha256": "106a976e9383e1d330d4abb92f0dde8e4044af996f04ee2a373882e458ca054b"
     },
     {
       "frontier_id": "recursive-agents",
@@ -339,7 +339,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 351,
+      "duration_ms": 445,
       "results": [
         {
           "title": "AI Does Not Work Until It Is Made to Work: A Sociomaterial Process Model of Generative AI Value Emergence (GAIVE)",
@@ -392,7 +392,7 @@
           "source": "https://api.openalex.org/works?search=autonomous+agents+recursive+software+engineering+self+improvement&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "53dc799b426249e931fed92f5861b1b7b0ae0bf18e0821be3af22ed6bc088739"
+      "evidence_sha256": "eed04827ca29cddcdbc504a2ddcc6d4e45c1615c7e04a1e511bc3db2a11637f1"
     },
     {
       "frontier_id": "recursive-agents",
@@ -400,7 +400,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 335,
+      "duration_ms": 1775,
       "results": [
         {
           "title": "Recursive Self Improvement for Embodied Agents—A Survey of Mechanisms Evaluation and Open Challenges",
@@ -474,7 +474,7 @@
           "source": "https://api.crossref.org/works?query=autonomous+agents+recursive+software+engineering+self+improvement&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "a2d2066831eff8ab3e93acf5a510ee0fac13c922e9d524a783f906420b78a622"
+      "evidence_sha256": "1e21f2e7dcdd28d473d4ba7e1c35451fdf22e49d7b6490e445b717741f5dfa58"
     },
     {
       "frontier_id": "dtn",
@@ -482,9 +482,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 314,
+      "duration_ms": 458,
       "results": [],
-      "evidence_sha256": "981abd1bdafd049b45323df023b69ec66dd94e23e9e11662da32669c4196b91f"
+      "evidence_sha256": "05fabdbdc72382e868af37714f6e2354c6e0f6b80f9e0230e02a392282a88b79"
     },
     {
       "frontier_id": "dtn",
@@ -492,7 +492,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 456,
+      "duration_ms": 431,
       "results": [
         {
           "title": "Orchestrating Artificial Intelligence Functions",
@@ -545,7 +545,7 @@
           "source": "https://api.openalex.org/works?search=delay+tolerant+networking+bundle+protocol+store+carry+forward&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "2e2797bf07af261c9d518194e8cb1df951811b0786297803601416e4e410958e"
+      "evidence_sha256": "36eec2654a7e148dd7cd21aade47cd51dcdf3848f4bbba6a5b6b35d2b9f7249a"
     },
     {
       "frontier_id": "dtn",
@@ -553,7 +553,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 1034,
+      "duration_ms": 646,
       "results": [
         {
           "title": "Delay-Tolerant Networking Bundle Protocol IANA Registries",
@@ -631,7 +631,7 @@
           "source": "https://api.crossref.org/works?query=delay+tolerant+networking+bundle+protocol+store+carry+forward&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "bd7229cae9a64a1c92896f164ee7fdeafd2f8b049ee66dab04f67d9b61a90371"
+      "evidence_sha256": "a9cef609ce4498add6f394d240c387a943e4c80c543be20ed245e9bd6f422c78"
     },
     {
       "frontier_id": "p2p-browser",
@@ -639,9 +639,9 @@
       "adapter": "github",
       "status": "ok",
       "error": "",
-      "duration_ms": 270,
+      "duration_ms": 470,
       "results": [],
-      "evidence_sha256": "51fb9f298c29cada7d2abfd5d882424e3e61813a841baedbd132a2d847a5870c"
+      "evidence_sha256": "a90edb2b889a4dab29abedece21f524a8a17b560ff481548a357157c5d34e549"
     },
     {
       "frontier_id": "p2p-browser",
@@ -649,7 +649,7 @@
       "adapter": "npm",
       "status": "ok",
       "error": "",
-      "duration_ms": 279,
+      "duration_ms": 443,
       "results": [
         {
           "title": "@libp2p/webrtc",
@@ -692,7 +692,7 @@
           "source": "https://registry.npmjs.org/-/v1/search?text=libp2p+webtransport+webrtc+browser+peer+to+peer&size=5"
         }
       ],
-      "evidence_sha256": "2bfbd45c701c53dfd7a370946815e11e0ca1dbdee8798c939f517f14c0b6bbae"
+      "evidence_sha256": "9d698561f9ae976d95bef021f4d53c9c75fabb0bae9031d01eb5b406eb8d28cb"
     },
     {
       "frontier_id": "p2p-browser",
@@ -700,7 +700,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 294,
+      "duration_ms": 285,
       "results": [
         {
           "title": "Analisis Pemanfaatan Teknologi Blockchain dan Interplanetary File System (IPFS) untuk Mengatasi Single Point of Failure pada Hadoop = Analysis of Blockchain and Interplanetary File System (IPFS) Utilization for Overcome Single Point of Failure in Hadoop",
@@ -713,7 +713,7 @@
           "source": "https://api.openalex.org/works?search=libp2p+webtransport+webrtc+browser+peer+to+peer&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "a0a78d8ea4eedcca0c5e99942a2f2adc38107b95530bcbd65a86b78b00c5f0f3"
+      "evidence_sha256": "e57e5cd0489380259a9a1595541c1be63ee255d8897a2934ec21af04f4df8a9f"
     },
     {
       "frontier_id": "cognition-research",
@@ -721,7 +721,7 @@
       "adapter": "openalex",
       "status": "ok",
       "error": "",
-      "duration_ms": 439,
+      "duration_ms": 430,
       "results": [
         {
           "title": "The functional fallacy: a diagnostic framework for functional claims in the psychology of consciousness",
@@ -774,7 +774,7 @@
           "source": "https://api.openalex.org/works?search=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&per-page=5&sort=publication_date%3Adesc"
         }
       ],
-      "evidence_sha256": "bf036c6fe34b9684222ebd33e5a626b660bb8926ab689b743e1da85c9a119550"
+      "evidence_sha256": "8a8d4bcbb537fa6e9b03982e1e6cd35d1893733500d0193740ad963ded7783dd"
     },
     {
       "frontier_id": "cognition-research",
@@ -782,7 +782,7 @@
       "adapter": "crossref",
       "status": "ok",
       "error": "",
-      "duration_ms": 334,
+      "duration_ms": 1530,
       "results": [
         {
           "title": "Reflective AI Consciousness: A Model for Self-Questioning Through a Dedicated Workspace",
@@ -861,7 +861,7 @@
           "source": "https://api.crossref.org/works?query=artificial+intelligence+metacognition+global+workspace+self+model+consciousness+indicators&rows=5&select=DOI%2Ctitle%2CURL%2Cpublisher%2Cpublished%2Ccreated"
         }
       ],
-      "evidence_sha256": "6ff191357bdcd0b7b132e33505c79227647033873f120554510d072a266be0a1"
+      "evidence_sha256": "6e0c419b4ff9ca5f7bae0112e980d6d21f56821897f45ddb416d00a139dbcf4d"
     }
   ],
   "stats": {
@@ -870,5 +870,5 @@
     "successful": 17,
     "failed": 0
   },
-  "root_sha256": "a8df6f650858a916743e516bbf5bbcc5fcba29a4355c8e1de6637a49f7726f96"
+  "root_sha256": "7a16b54ff6a0d04c4af154b100f5929b739bb3d6a80183ede546ea3886ff6dc6"
 }
